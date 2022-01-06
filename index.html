@@ -10,7 +10,6 @@
     <link rel="stylesheet" href="./assets/css/theme.min.css">
     <link rel="stylesheet" href="./assets/css/vendor.min.css">
     <link rel="stylesheet" href="./assets/css/bootstrap.css">
-    <link rel="stylesheet" href="./assets/css/aos.css">
 </head>
 <body>
 
@@ -83,7 +82,7 @@
         <div class="d-grid d-sm-flex justify-content-sm-center align-items-sm-center gap-3">
           <a class="btn btn-primary btn-transition" href="#">Agendar reunión</a>
           <small>o</small>
-          <a class="btn btn-soft-dark btn-transition" href="#">Ver precios <i class="bi-chevron-right small ms-1"></i></a>
+          <a class="btn btn-soft-dark btn-transition" href="#precios">Ver precios <i class="bi-chevron-right small ms-1"></i></a>
         </div>
       </div>
     </div>
@@ -127,11 +126,11 @@
     <!-- End SVG Background Shape -->
   </div>
 
-<div class="rounded-2 mx-3 mx-xl-10" style="background-image: url(./assets/svg/components/wave-pattern-light.svg);">
+<div class="bg-primary rounded-2 mx-3 mx-xl-10" style="background-image: url(./assets/svg/components/wave-pattern-light.svg);">
     <div class="container-xl container-fluid content-space-1 content-space-md-2 px-4 px-md-8 px-lg-10">
         <!-- Heading -->
         <div class="text-center mx-md-auto mb-5 mb-md-9">
-        <h2 class="h1">Servicios de cobranza</h2>
+        <h2 class="h1 text-white">Servicios de cobranza</h2>
         </div>
         <!-- End Heading -->
     
@@ -144,18 +143,21 @@
             <div class="card text-center">
                 <div class="card-body">
                 <div class="mb-4">
-                    <svg width="5rem" height="5rem" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <g id="com/com014">
-                    <path id="vector" opacity="0.3" fill-rule="evenodd" clip-rule="evenodd" d="M4 4L11.6314 2.56911C11.875 2.52343 12.125 2.52343 12.3686 2.56911L20 4V11.9033C20 15.696 18.0462 19.2211 14.83 21.2313L12.53 22.6687C12.2057 22.8714 11.7943 22.8714 11.47 22.6687L9.17001 21.2313C5.95382 19.2211 4 15.696 4 11.9033L4 4Z" fill="#377dff"></path>
-                    <path id="group" fill-rule="evenodd" clip-rule="evenodd" d="M9.5 10.5C9.5 9.11929 10.6193 8 12 8C13.3807 8 14.5 9.11929 14.5 10.5V11C15.0523 11 15.5 11.4477 15.5 12V15C15.5 15.5523 15.0523 16 14.5 16H9.5C8.94772 16 8.5 15.5523 8.5 15V12C8.5 11.4477 8.94772 11 9.5 11V10.5ZM12 9C11.1716 9 10.5 9.67157 10.5 10.5V11H13.5V10.5C13.5 9.67157 12.8284 9 12 9Z" fill="#377dff"></path>
-                    </g>
-                    </svg>
+                    
+                  <svg width="5rem" height="5rem" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M6 8.725C6 8.125 6.4 7.725 7 7.725H14L18 11.725V12.925L22 9.725L12.6 2.225C12.2 1.925 11.7 1.925 11.4 2.225L2 9.725L6 12.925V8.725V8.725Z" fill="#377dff"></path>
+                    <path opacity="0.3" d="M22 9.72498V20.725C22 21.325 21.6 21.725 21 21.725H3C2.4 21.725 2 21.325 2 20.725V9.72498L11.4 17.225C11.8 17.525 12.3 17.525 12.6 17.225L22 9.72498ZM15 11.725H18L14 7.72498V10.725C14 11.325 14.4 11.725 15 11.725Z" fill="#377dff"></path>
+                    </svg> 
+                  
                 </div>
     
-                <h3 class="card-title text-primary">Publicación</h3>
-                <span class="badge bg-success rounded-pill mb-2">Pronto</span>
+                <h3 class="card-title">Prejudicial</h3>
             
-                <p class="card-text">De la morosidad en distintos buró de crédito para presionar y exigir el pago al deudor.</p>
+                <p class="card-text">Exija el pago de manera formal con abogados especialistas a través de llamadas y correos electrónicos.</p>
+                </div>
+
+                <div class="card-footer pt-0">
+                  <a class="card-link" href="./servicios/cobranza-prejudicial">Revisar <i class="bi-chevron-right small ms-1"></i></a>
                 </div>
             </div>
             <!-- End Card -->
@@ -168,16 +170,21 @@
             <div class="card text-center">
                 <div class="card-body">
                 <div class="mb-4">
-                    <svg width="5rem" height="5rem" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M6 8.725C6 8.125 6.4 7.725 7 7.725H14L18 11.725V12.925L22 9.725L12.6 2.225C12.2 1.925 11.7 1.925 11.4 2.225L2 9.725L6 12.925V8.725V8.725Z" fill="#377dff"></path>
-                    <path opacity="0.3" d="M22 9.72498V20.725C22 21.325 21.6 21.725 21 21.725H3C2.4 21.725 2 21.325 2 20.725V9.72498L11.4 17.225C11.8 17.525 12.3 17.525 12.6 17.225L22 9.72498ZM15 11.725H18L14 7.72498V10.725C14 11.325 14.4 11.725 15 11.725Z" fill="#377dff"></path>
+
+                  <svg width="5rem" height="5rem" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M20 19.725V18.725C20 18.125 19.6 17.725 19 17.725H5C4.4 17.725 4 18.125 4 18.725V19.725H3C2.4 19.725 2 20.125 2 20.725V21.725H22V20.725C22 20.125 21.6 19.725 21 19.725H20Z" fill="#377dff"></path>
+                    <path opacity="0.3" d="M22 6.725V7.725C22 8.325 21.6 8.725 21 8.725H18C18.6 8.725 19 9.125 19 9.725C19 10.325 18.6 10.725 18 10.725V15.725C18.6 15.725 19 16.125 19 16.725V17.725H15V16.725C15 16.125 15.4 15.725 16 15.725V10.725C15.4 10.725 15 10.325 15 9.725C15 9.125 15.4 8.725 16 8.725H13C13.6 8.725 14 9.125 14 9.725C14 10.325 13.6 10.725 13 10.725V15.725C13.6 15.725 14 16.125 14 16.725V17.725H10V16.725C10 16.125 10.4 15.725 11 15.725V10.725C10.4 10.725 10 10.325 10 9.725C10 9.125 10.4 8.725 11 8.725H8C8.6 8.725 9 9.125 9 9.725C9 10.325 8.6 10.725 8 10.725V15.725C8.6 15.725 9 16.125 9 16.725V17.725H5V16.725C5 16.125 5.4 15.725 6 15.725V10.725C5.4 10.725 5 10.325 5 9.725C5 9.125 5.4 8.725 6 8.725H3C2.4 8.725 2 8.325 2 7.725V6.725L11 2.225C11.6 1.925 12.4 1.925 13.1 2.225L22 6.725ZM12 3.725C11.2 3.725 10.5 4.425 10.5 5.225C10.5 6.025 11.2 6.725 12 6.725C12.8 6.725 13.5 6.025 13.5 5.225C13.5 4.425 12.8 3.725 12 3.725Z" fill="#377dff"></path>
                     </svg>
                 </div>
     
-                <h3 class="card-title text-primary">Prejudicial</h3>
-                <p class="card-text">Exija el pago de manera formal con abogados especialistas a través de llamadas y correos electrónicos.</p>
+                <h3 class="card-title">Judicial</h3>
+                <p class="card-text">Iniciamos una demanda en el Poder Judicial exigiendo el pago total adeudado, intereses y gastos de notificación.</p>
+                </div>
+                <div class="card-footer pt-0">
+                  <a class="card-link" href="./servicios/cobranza-judicial">Revisar <i class="bi-chevron-right small ms-1"></i></a>
                 </div>
             </div>
+         
             <!-- End Card -->
             </div>
             <!-- End Slide -->
@@ -188,19 +195,25 @@
             <div class="card text-center">
                 <div class="card-body">
                 <div class="mb-4">
-                    <svg width="5rem" height="5rem" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M20 19.725V18.725C20 18.125 19.6 17.725 19 17.725H5C4.4 17.725 4 18.125 4 18.725V19.725H3C2.4 19.725 2 20.125 2 20.725V21.725H22V20.725C22 20.125 21.6 19.725 21 19.725H20Z" fill="#377dff"></path>
-                    <path opacity="0.3" d="M22 6.725V7.725C22 8.325 21.6 8.725 21 8.725H18C18.6 8.725 19 9.125 19 9.725C19 10.325 18.6 10.725 18 10.725V15.725C18.6 15.725 19 16.125 19 16.725V17.725H15V16.725C15 16.125 15.4 15.725 16 15.725V10.725C15.4 10.725 15 10.325 15 9.725C15 9.125 15.4 8.725 16 8.725H13C13.6 8.725 14 9.125 14 9.725C14 10.325 13.6 10.725 13 10.725V15.725C13.6 15.725 14 16.125 14 16.725V17.725H10V16.725C10 16.125 10.4 15.725 11 15.725V10.725C10.4 10.725 10 10.325 10 9.725C10 9.125 10.4 8.725 11 8.725H8C8.6 8.725 9 9.125 9 9.725C9 10.325 8.6 10.725 8 10.725V15.725C8.6 15.725 9 16.125 9 16.725V17.725H5V16.725C5 16.125 5.4 15.725 6 15.725V10.725C5.4 10.725 5 10.325 5 9.725C5 9.125 5.4 8.725 6 8.725H3C2.4 8.725 2 8.325 2 7.725V6.725L11 2.225C11.6 1.925 12.4 1.925 13.1 2.225L22 6.725ZM12 3.725C11.2 3.725 10.5 4.425 10.5 5.225C10.5 6.025 11.2 6.725 12 6.725C12.8 6.725 13.5 6.025 13.5 5.225C13.5 4.425 12.8 3.725 12 3.725Z" fill="#377dff"></path>
+                  
+                  
+                  <svg width="5rem" height="5rem" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g id="com/com014">
+                    <path id="vector" opacity="0.3" fill-rule="evenodd" clip-rule="evenodd" d="M4 4L11.6314 2.56911C11.875 2.52343 12.125 2.52343 12.3686 2.56911L20 4V11.9033C20 15.696 18.0462 19.2211 14.83 21.2313L12.53 22.6687C12.2057 22.8714 11.7943 22.8714 11.47 22.6687L9.17001 21.2313C5.95382 19.2211 4 15.696 4 11.9033L4 4Z" fill="#377dff"></path>
+                    <path id="group" fill-rule="evenodd" clip-rule="evenodd" d="M9.5 10.5C9.5 9.11929 10.6193 8 12 8C13.3807 8 14.5 9.11929 14.5 10.5V11C15.0523 11 15.5 11.4477 15.5 12V15C15.5 15.5523 15.0523 16 14.5 16H9.5C8.94772 16 8.5 15.5523 8.5 15V12C8.5 11.4477 8.94772 11 9.5 11V10.5ZM12 9C11.1716 9 10.5 9.67157 10.5 10.5V11H13.5V10.5C13.5 9.67157 12.8284 9 12 9Z" fill="#377dff"></path>
+                    </g>
                     </svg>
+
                 </div>
     
-                <h3 class="card-title text-primary">Judicial</h3>
-                <p class="card-text">Iniciamos una demanda en el Poder Judicial exigiendo el pago total adeudado, intereses y gastos de notificación.</p>
+                <h3 class="card-title">Jucio Civil</h3>
+                <p class="card-text">Iniciamos una demanda en el Poder Judicial exigiendo el pago de títulos con más de un año desde la fecha de vencimiento</p>
+                </div>
+                <div class="card-footer pt-0">
+                  <a class="card-link" href="./servicios/juicio-civil-cobro.html">Revisar <i class="bi-chevron-right small ms-1"></i></a>
                 </div>
             </div>
-            <!-- End Card -->
             </div>
-            <!-- End Slide -->
         </div>
     
         <!-- Swiper Pagination -->
@@ -209,8 +222,8 @@
         <!-- End Swiper Slider -->
     
         <div class="text-center">
-        <p class="">¿Necesita más información? <a class="link link-dark" href="#">Agendar reunión <i class="bi-arrow-right-circle-fill align-middle fs-3 ms-1"></i></a></p>
-        </div>
+          <p>¿Necesita un servicio personalizado? <a class="link link-dark" href="#">Agendar reunión <i class="bi-arrow-right-circle-fill align-middle fs-3 ms-1"></i></a></p>
+          </div>
     </div>
 </div>
 
@@ -220,13 +233,13 @@
     <div class="col-lg-5 mb-9 mb-lg-0">
         <!-- Heading -->
         <div class="mb-4">
-        <h2 class="h1">Dashboard en línea para estar informado</h2>
+        <h2 class="h1">Mantengase informado en tiempo real</h2>
         <p>El primer software legal de cobranza que le muestra el estado de avance de manera transparente.</p>
         </div>
         <!-- End Heading -->
         
         <!-- List Checked -->
-        <ul class="list-checked list-checked-soft-bg-dark list-checked-lg">
+        <ul class="list-checked list-checked-bg-success list-checked-lg">
         <li class="list-checked-item">Trámites y resoluciones judiciales en tiempo real.</li>
         <li class="list-checked-item">Gastos de notificación transparentados.</li>
         <li class="list-checked-item">Acepte o rechace convenios de pago en línea.</li>
@@ -254,34 +267,38 @@
 </div>
 </div>
 
-<div class="container">
-    <div class="w-lg-75 mx-lg-auto">
-      <div class="card card-sm overflow-hidden">
-        <!-- Card -->
-        <div class="card-body">
-          <div class="row justify-content-md-start align-items-md-center text-center text-md-start">
-            <div class="col-md offset-md-3 mb-3 mb-md-0">
-              <h4 class="card-title">Obtenga un partner legal y tecnológico</h4>
-            </div>
-  
-            <div class="col-md-auto">
-                <div class="d-grid d-sm-flex justify-content-sm-center align-items-sm-center gap-3">
-                    <a class="btn btn-primary btn-transition" href="#">Agendar reunión</a>
-                    <small>o</small>
-                    <a class="btn btn-soft-dark btn-transition" href="#">Ver precios <i class="bi-chevron-right small ms-1"></i></a>
-                  </div>
-            </div>
+<div class="container content-space-2">
+  <div class="w-lg-75 mx-lg-auto">
+    <div class="card card-sm overflow-hidden">
+      <!-- Card -->
+      <div class="card-body">
+        <div class="row justify-content-md-start align-items-md-center text-center text-md-start">
+          <div class="col-md offset-md-3 mb-3 mb-md-0">
+            <h4 class="card-title">Reduzca cuentas por cobrar y maximice liquidez</h4>
           </div>
-  
-          <!-- SVG Shape -->
-          <figure class="w-25 d-none d-md-block position-absolute top-0 start-0 mt-n2">
-            <img class="card-img" src="./assets/svg/logos/Legalbox-isotipo.svg" alt="Image Description">
-          </figure>
-          <!-- End SVG Shape -->
+
+          <div class="col-md-auto">
+            <a class="btn btn-primary btn-transition" href="/contacto">Agendar reunión</a>
+          </div>
         </div>
-        <!-- End Card -->
+
+        <!-- SVG Shape -->
+        <figure class="w-25 d-none d-md-block position-absolute top-0 start-0 mt-n2">
+          <svg viewBox="0 0 451 902" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path opacity="0.125" d="M0 82C203.8 82 369 247.2 369 451C369 654.8 203.8 820 0 820" stroke="url(#paint2_linear)" stroke-width="164" stroke-miterlimit="10"/>
+            <defs>
+              <linearGradient id="paint2_linear" x1="323.205" y1="785.242" x2="-97.6164" y2="56.3589" gradientUnits="userSpaceOnUse">
+                <stop offset="0" stop-color="white" stop-opacity="0"/>
+                <stop offset="1" stop-color="#3DDC97"/>
+              </linearGradient>
+            </defs>
+          </svg>
+        </figure>
+        <!-- End SVG Shape -->
       </div>
+      <!-- End Card -->
     </div>
+  </div>
 </div>
 
 <div id="precios" class="overflow-hidden">
@@ -300,9 +317,7 @@
             <div class="d-flex gap-3">          
                 <div class="d-grid d-sm-flex justify-content-sm-center align-items-sm-center gap-3">
                     <a class="btn btn-primary btn-transition" href="#">Agendar reunión</a>
-                    <small>o</small>
-                    <a class="btn btn-soft-dark btn-transition" href="#">Ver precios <i class="bi-chevron-right small ms-1"></i></a>
-                    </div>
+                </div>
             </div>
         </div>
         <!-- End Col -->
@@ -361,43 +376,6 @@
         <!-- End Row -->
     </div>
 </div>  
-
-<div class="overflow-hidden">
-<div class="container content-space-2 content-space-t-lg-3">
-    <div class="row justify-content-lg-between align-items-lg-center">
-    <div class="col-lg-5 mb-9 mb-lg-0">
-        <!-- Heading -->
-        <div class="mb-5">
-        <h2 class="h1">Sin trámites, simple y 100% online</h2>
-        <p>Cobranza prejudicial, judicial y civil para el cobro de títulos ejecutivos impagos - Sin trámites</p>
-        </div>
-        <!-- End Heading -->
-    </div>
-
-    <div class="col-lg-6">
-        <div class="position-relative mx-auto" data-aos="fade-up">
-        <!-- Mobile Device -->
-        <!-- Browser Device -->
-            <figure class="device-browser">
-            
-
-            <div class="device-browser-frame">
-                <img class="device-browser-img" src="./assets/svg/illustrations/elegir-cobranza.svg" alt="Image Description">
-            </div>
-            </figure>
-            <!-- End Browser Device -->
-        <!-- End Mobile Device -->
-
-        <!-- SVG Shape -->
-        <div class="position-absolute top-50 start-50 translate-middle zi-n1" style="width: 25rem;">
-            <img class="img-fluid" src="../assets/svg/components/shape-2.svg" alt="SVG">
-        </div>
-        <!-- End SVG Shape -->
-        </div>
-    </div>
-    </div>
-</div>
-</div>
 
 <div class="container content-space-2">
     <!-- Heading -->
@@ -531,8 +509,6 @@
 
 <div class="d-grid d-sm-flex justify-content-sm-center align-items-sm-center gap-3">
         <a class="btn btn-primary btn-transition" href="#">Agendar reunión</a>
-        <small>o</small>
-        <a class="btn btn-soft-dark btn-transition" href="#">Ver precios <i class="bi-chevron-right small ms-1"></i></a>
 </div>
 
 <div class="container content-space-2 content-space-lg-3">
@@ -660,7 +636,7 @@
     </div>
 </div>
 
-<div class="bg-primary rounded-2 mx-3 mx-xl-10" style="background-image: url(../assets/svg/components/wave-pattern-light.svg);">
+<div class="bg-primary  mb-5 rounded-2 mx-3 mx-xl-10" style="background-image: url(../assets/svg/components/wave-pattern-light.svg);">
     <div class="container-xl container-fluid content-space-1 content-space-md-2 px-4 px-md-8 px-lg-10">
       <div class="row justify-content-lg-between align-items-lg-center">
         <div class="col-md-10 col-lg-5 mb-9 mb-lg-0">
@@ -717,7 +693,7 @@
                     <!-- Form -->
                     <div class="mb-3">
                       <label class="form-label visually-hidden" for="hireUsFormFirstNameEg2">Nombre</label>
-                      <input type="text" class="form-control form-control-lg" name="hireUsFormNameFirstName" id="hireUsFormFirstNameEg2" placeholder="Nombre" aria-label="Nombre">
+                      <input type="text" class="form-control form-control-lg" name="firstname" id="hireUsFormFirstNameEg2" placeholder="Nombre" aria-label="Nombre">
                     </div>
                     <!-- End Form -->
                   </div>
@@ -727,7 +703,7 @@
                     <!-- Form -->
                     <div class="mb-3">
                       <label class="form-label visually-hidden" for="hireUsFormLasttNameEg2">Apellido</label>
-                      <input type="text" class="form-control form-control-lg" name="hireUsFormNameLastName" id="hireUsFormLasttNameEg2" placeholder="Apellido" aria-label="Apellido">
+                      <input type="text" class="form-control form-control-lg" name="lastname" id="hireUsFormLasttNameEg2" placeholder="Apellido" aria-label="Apellido">
                     </div>
                     <!-- End Form -->
                   </div>
@@ -740,7 +716,7 @@
                     <!-- Form -->
                     <div class="mb-3">
                       <label class="form-label visually-hidden" for="hireUsFormWorkEmailEg2">Email</label>
-                      <input type="email" class="form-control form-control-lg" name="hireUsFormNameWorkEmail" id="hireUsFormWorkEmailEg2" placeholder="Email" aria-label="email@empresa.cl">
+                      <input type="email" class="form-control form-control-lg" name="email" id="hireUsFormWorkEmailEg2" placeholder="Email" aria-label="email@empresa.cl">
                     </div>
                     <!-- End Form -->
                   </div>
@@ -750,7 +726,7 @@
                     <!-- Form -->
                     <div class="mb-3">
                       <label class="form-label visually-hidden" for="hireUsFormCompanyNameEg1">Teléfono <span class="form-label-secondary">(Optional)</span></label>
-                      <input type="text" class="form-control form-control-lg" name="hireUsFormNameCompanyName" id="hireUsFormCompanyNameEg1" placeholder="Teléfono" aria-label="Teléfono">
+                      <input type="text" class="form-control form-control-lg" name="phone" id="hireUsFormCompanyNameEg1" placeholder="Teléfono" aria-label="Teléfono">
                     </div>
                     <!-- End Form -->
                   </div>
@@ -811,45 +787,59 @@
     </div>
 </div>
 
-<footer class="container content-space-2 text-center">
-    <!-- Logo -->
-    <a class="d-inline-flex align-items-center mb-3" href="index.html" aria-label="Front">
-      <img class="brand" src="./assets/svg/logos/legalbox_logo.svg" alt="Logo">
-    </a>
-    <!-- End Logo -->
-  
-    <p class="fs-6 mb-1">We're part of the <a class="link" href="#">Pixeel Ltd.</a> family along with <a class="link" href="http://htmlstream.com" target="_blank">Htmlstream</a>.</p>
-    <p class="fs-6">© Front. 2021 Htmlstream. All rights reserved.</p>
-  
-    <!-- Socials -->
-    <ul class="list-inline mb-0">
-      <li class="list-inline-item">
-        <a class="btn btn-ghost-secondary btn-sm btn-icon rounded-circle" href="#">
-          <i class="bi-facebook"></i>
+
+<footer class="gradient-x-overlay-sm-primary overflow-hidden">
+  <div class="container content-space-2 content-space-b-1">
+    <div class="row justify-content-md-between align-items-md-center text-center text-md-start">
+      <div class="col-md mb-3 mb-md-0">
+        <h2 class="text-indigo">Pruebe Legalbox hoy</h2>
+      </div>
+
+      <div class="col-md-auto">
+        <div class="d-grid d-sm-flex justify-content-sm-center align-items-sm-center gap-3">
+          <a class="btn btn-primary btn-transition" href="#">Agendar reunión</a>
+          <small>o</small>
+          <a class="btn btn-soft-dark btn-transition" href="https://app.legalbox.cl/signup">Comenzar ahora <i class="bi-chevron-right small ms-1"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <hr class="my-9">
+
+    <div class="row">
+      <div class="col-6 col-md-3 order-md-2 mb-7 mb-md-0">
+        <h5>Servicios</h5>
+
+        <ul class="list-unstyled list-py-1 mb-0">
+          <li><a class="link link-sm link-secondary" href="./servicios/cobranza-judicial">Judicial</a></li>
+          <li><a class="link link-sm link-secondary" href="./servicios/cobranza-prejudicial">Prejudicial</a></li>
+          <li><a class="link link-sm link-secondary" href="./servicios/juicio-civil-cobranza">Civil</a></li>
+          <li><a class="link link-sm link-secondary" href="./servicios/certificado-incobrabilidad">C. Incobrabilidad</a></li>
+          <li><a class="link link-sm link-secondary" href="./servicios/recupera-iva">Recuperar IVA</a></li>
+        </ul>
+      </div>
+
+      <div class="col-6 col-md-3 order-md-3 mb-7 mb-md-0">
+        <h5>Recursos</h5>
+
+        <ul class="list-unstyled list-py-1 mb-0">
+          <li><a class="link link-sm link-secondary" href="./recursos/index">Guías y artículos</a></li>
+          <li><a class="link link-sm link-secondary" href="./recursos/preguntas-frecuentes">FAQ</a></li>
+          <li><a class="link link-sm link-secondary" href="./contacto">Contactar</a></li>
+        </ul>
+      </div>
+
+      <div class="col-sm-6 col-md-3 order-md-1 mb-3 mb-md-0">
+        <a class="d-inline-flex align-items-center" href="../" aria-label="Legalbox">
+          <img class="brand" src="./assets/svg/logos/legalbox_logo.svg" alt="Logo">
         </a>
-      </li>
-      <li class="list-inline-item">
-        <a class="btn btn-ghost-secondary btn-sm btn-icon rounded-circle" href="#">
-          <i class="bi-slack"></i>
-        </a>
-      </li>
-      <li class="list-inline-item">
-        <a class="btn btn-ghost-secondary btn-sm btn-icon rounded-circle" href="#">
-          <i class="bi-github"></i>
-        </a>
-      </li>
-      <li class="list-inline-item">
-        <a class="btn btn-ghost-secondary btn-sm btn-icon rounded-circle" href="#">
-          <i class="bi-twitter"></i>
-        </a>
-      </li>
-      <li class="list-inline-item">
-        <a class="btn btn-ghost-secondary btn-sm btn-icon rounded-circle" href="#">
-          <i class="bi-instagram"></i>
-        </a>
-      </li>
-    </ul>
-    <!-- End Socials -->
+      </div>
+
+      <div class="col-sm-6 col-md-3 order-md-4 align-self-center align-self-md-start">
+        <p class="small">© Legalbox SpA 2022</p>
+      </div>
+    </div>
+  </div>
 </footer>
 
   <!-- JS Implementing Plugins -->
