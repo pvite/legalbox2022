@@ -9,197 +9,67 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/theme.min.css">
     <link rel="stylesheet" href="./assets/css/vendor.min.css">
-
     <link rel="stylesheet" href="./assets/css/bootstrap.css">
+    <link rel="stylesheet" href="./assets/css/aos.css">
 </head>
 <body>
 
+<header id="header" class="navbar navbar-expand-lg navbar-end navbar-absolute-top navbar-light">
+  <div class="container">
+    <nav class="js-mega-menu navbar-nav-wrap">
+      <a class="navbar-brand" href="../index.html" aria-label="Legalbox">
+        <img class="navbar-brand-logo" src="./assets/svg/logos/legalbox_logo.svg" alt="Logo-Legalbox">
+      </a>
 
-<header id="header" class="navbar navbar-expand-lg navbar-end navbar-absolute-top navbar-light navbar-show-hide" data-hs-header-options="{
-        &quot;fixMoment&quot;: 1000,
-        &quot;fixEffect&quot;: &quot;slide&quot;
-      }" hsheader="true">
-<!-- Topbar -->
-<div class="container navbar-topbar">
-  <nav class="js-mega-menu navbar-nav-wrap hs-menu-initialized hs-menu-horizontal">
-    <!-- Toggler -->
-    <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#topbarNavDropdown" aria-controls="topbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="d-flex justify-content-between align-items-center small">
-        <span class="navbar-toggler-text">Topbar</span>
-
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-default">
-          <i class="bi-chevron-down ms-2"></i>
+          <i class="bi-list"></i>
         </span>
         <span class="navbar-toggler-toggled">
-          <i class="bi-chevron-up ms-2"></i>
+          <i class="bi-x"></i>
         </span>
-      </span>
-    </button>
-    <!-- End Toggler -->
+      </button>
 
-    <div id="topbarNavDropdown" class="navbar-nav-wrap-collapse collapse navbar-collapse navbar-topbar-collapse">
-      <div class="navbar-toggler-wrapper">
-        <div class="navbar-topbar-toggler d-flex justify-content-between align-items-center">
-          <span class="navbar-toggler-text small">Topbar</span>
-
-          <!-- Toggler -->
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#topbarNavDropdown" aria-controls="topbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <i class="bi-x"></i>
-          </button>
-          <!-- End Toggler -->
-        </div>
-      </div>
-
-      <ul class="navbar-nav">
-        <!-- Demos -->
-        <li class="hs-has-mega-menu nav-item">
-          <a id="demosMegaMenu" class="hs-mega-menu-invoker nav-link dropdown-toggle " aria-current="page" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">FAQ</a>
-
-
-        </li>
-        <!-- End Demos -->
-
-        <!-- Docs -->
-        <li class="hs-has-mega-menu nav-item" data-hs-mega-menu-item-options="{
-              &quot;desktop&quot;: {
-                &quot;maxWidth&quot;: &quot;20rem&quot;
-              }
-            }">
-          <a id="docsMegaMenu" class="hs-mega-menu-invoker nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Contactar</a>
-
-          <!-- Mega Menu -->
-          <div class="hs-mega-menu hs-position-right dropdown-menu hs-mega-menu-desktop-lg animated" aria-labelledby="docsMegaMenu" style="min-width: 20rem; max-width: 20rem; animation-duration: 300ms; display: none;">
-            <!-- Link -->
-            <a class="navbar-dropdown-menu-media-link" href="../documentation/index.html">
-              <div class="d-flex">
-                <div class="flex-shrink-0">
-                  <span class="svg-icon svg-icon-sm text-primary">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path opacity="0.3" fill-rule="evenodd" clip-rule="evenodd" d="M4.85714 1H11.7364C12.0911 1 12.4343 1.12568 12.7051 1.35474L17.4687 5.38394C17.8057 5.66895 18 6.08788 18 6.5292V19.0833C18 20.8739 17.9796 21 16.1429 21H4.85714C3.02045 21 3 20.8739 3 19.0833V2.91667C3 1.12612 3.02045 1 4.85714 1ZM7 13C7 12.4477 7.44772 12 8 12H15C15.5523 12 16 12.4477 16 13C16 13.5523 15.5523 14 15 14H8C7.44772 14 7 13.5523 7 13ZM8 16C7.44772 16 7 16.4477 7 17C7 17.5523 7.44772 18 8 18H11C11.5523 18 12 17.5523 12 17C12 16.4477 11.5523 16 11 16H8Z" fill="#377dff"></path>
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M6.85714 3H14.7364C15.0911 3 15.4343 3.12568 15.7051 3.35474L20.4687 7.38394C20.8057 7.66895 21 8.08788 21 8.5292V21.0833C21 22.8739 20.9796 23 19.1429 23H6.85714C5.02045 23 5 22.8739 5 21.0833V4.91667C5 3.12612 5.02045 3 6.85714 3ZM7 13C7 12.4477 7.44772 12 8 12H15C15.5523 12 16 12.4477 16 13C16 13.5523 15.5523 14 15 14H8C7.44772 14 7 13.5523 7 13ZM8 16C7.44772 16 7 16.4477 7 17C7 17.5523 7.44772 18 8 18H11C11.5523 18 12 17.5523 12 17C12 16.4477 11.5523 16 11 16H8Z" fill="#377dff"></path>
-                    </svg>
-
-                  </span>
-                </div>
-
-                <div class="flex-grow-1 ms-3">
-                  <span class="navbar-dropdown-menu-media-title">Documentation <span class="badge bg-primary rounded-pill ms-1">v4.0</span></span>
-                  <p class="navbar-dropdown-menu-media-desc">Development guides for building projects with Space</p>
-                </div>
-              </div>
-            </a>
-            <!-- End Link -->
-
-            <div class="dropdown-divider"></div>
-
-            <!-- Link -->
-            <a class="navbar-dropdown-menu-media-link" href="../snippets/index.html">
-              <div class="d-flex">
-                <div class="flex-shrink-0">
-                  <span class="svg-icon svg-icon-sm text-primary">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path opacity="0.3" d="M21 2H13C12.4 2 12 2.4 12 3V13C12 13.6 12.4 14 13 14H21C21.6 14 22 13.6 22 13V3C22 2.4 21.6 2 21 2ZM15.7 8L14 10.1V5.80005L15.7 8ZM15.1 4H18.9L17 6.40002L15.1 4ZM17 9.59998L18.9 12H15.1L17 9.59998ZM18.3 8L20 5.90002V10.2L18.3 8ZM9 2H3C2.4 2 2 2.4 2 3V21C2 21.6 2.4 22 3 22H9C9.6 22 10 21.6 10 21V3C10 2.4 9.6 2 9 2ZM4.89999 12L4 14.8V9.09998L4.89999 12ZM4.39999 4H7.60001L6 8.80005L4.39999 4ZM6 15.2L7.60001 20H4.39999L6 15.2ZM7.10001 12L8 9.19995V14.9L7.10001 12Z" fill="#377dff"></path>
-                    <path d="M21 18H13C12.4 18 12 17.6 12 17C12 16.4 12.4 16 13 16H21C21.6 16 22 16.4 22 17C22 17.6 21.6 18 21 18ZM19 21C19 20.4 18.6 20 18 20H13C12.4 20 12 20.4 12 21C12 21.6 12.4 22 13 22H18C18.6 22 19 21.6 19 21Z" fill="#377dff"></path>
-                    </svg>
-
-                  </span>
-                </div>
-
-                <div class="flex-grow-1 ms-3">
-                  <span class="navbar-dropdown-menu-media-title">Snippets</span>
-                  <p class="navbar-dropdown-menu-media-desc">Move quickly with copy-to-clipboard feature</p>
-                </div>
-              </div>
-            </a>
-            <!-- End Link -->
-          </div>
-          <!-- End Mega Menu -->
-        </li>
-        <!-- End Docs -->
-      </ul>
-    </div>
-  </nav>
-</div>
-<!-- End Topbar -->
-
-<div class="container">
-  <nav class="js-mega-menu navbar-nav-wrap hs-menu-initialized hs-menu-horizontal">
-    <!-- Default Logo -->
-    <a class="navbar-brand" href="../index.html" aria-label="Legalbox">
-      <img class="navbar-brand-logo" src="./assets/svg/logos/legalbox_logo.svg" alt="Logo">
-    </a>
-    <!-- End Default Logo -->
-
-    <!-- Toggler -->
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-default">
-        <i class="bi-list"></i>
-      </span>
-      <span class="navbar-toggler-toggled">
-        <i class="bi-x"></i>
-      </span>
-    </button>
-    <!-- End Toggler -->
-  
-    <!-- Collapse -->
-    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-      <div class="navbar-absolute-top-scroller">
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav">
-   
-
-          <!-- Pages -->
+       
           <li class="hs-has-sub-menu nav-item">
-            <a id="pagesMegaMenu" class="hs-mega-menu-invoker nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Servicios</a>
+            <a id="companyMegaMenu" class="hs-mega-menu-invoker nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Servicios</a>
 
-            <!-- Mega Menu -->
-            <div class="hs-sub-menu dropdown-menu hs-sub-menu-desktop-lg animated fadeOut" aria-labelledby="pagesMegaMenu" style="min-width: 14rem; animation-duration: 300ms; display: none;">
-              <a class="dropdown-item " href="../page-faq.html">FAQ</a>
-              <a class="dropdown-item " href="../page-terms.html">Terms &amp; Conditions</a>
-              <a class="dropdown-item " href="../page-privacy.html">Privacy &amp; Policy</a>
-              <a class="dropdown-item " href="../page-coming-soon.html">Coming Soon</a>
-              <a class="dropdown-item " href="../page-maintenance-mode.html">Maintenance Mode</a>
-              <a class="dropdown-item " href="../page-status.html">Status</a>
-              <a class="dropdown-item " href="../page-invoice.html">Invoice</a>
-              <a class="dropdown-item " href="../page-error-404.html">Error 404</a>
+            <div class="hs-sub-menu dropdown-menu" aria-labelledby="companyMegaMenu" style="min-width: 14rem;">
+              <a class="dropdown-item" href="./servicios/cobranza-judicial">Cobranza judicial</a>
+              <a class="dropdown-item" href="./servicios/cobranza-prejudicial">Cobranza prejudicial</a>
+              <a class="dropdown-item" href="./servicios/juicio-civil-cobranza">Juicio civil</a>
+              <a class="dropdown-item" href="./servicios/certificado-incobrabilidad">Certificado de incobrabilidad</a>
+              <a class="dropdown-item" href="./servicios/recupera-iva">Recuperar IVA</a>
             </div>
-            <!-- End Mega Menu -->
           </li>
-          <!-- End Pages -->
 
-          <!-- Blog -->
           <li class="hs-has-sub-menu nav-item">
-            <a id="blogMegaMenu" class="hs-mega-menu-invoker nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Blog</a>
+            <a id="accountMegaMenu" class="hs-mega-menu-invoker nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Recursos</a>
 
-            <!-- Mega Menu -->
-            <div class="hs-sub-menu dropdown-menu hs-sub-menu-desktop-lg animated" aria-labelledby="blogMegaMenu" style="min-width: 14rem; animation-duration: 300ms; display: none;">
-              <a class="dropdown-item " href="../blog-journal.html">Journal</a>
-              <a class="dropdown-item " href="../blog-metro.html">Metro</a>
-              <a class="dropdown-item " href="../blog-newsroom.html">Newsroom</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item " href="../blog-article.html">Article</a>
-              <a class="dropdown-item " href="../blog-author-profile.html">Author Profile</a>
+            <div class="hs-sub-menu dropdown-menu" aria-labelledby="accountMegaMenu" style="min-width: 14rem;">
+              <a class="dropdown-item" href="./recursos">Blog</a>
+              <a class="dropdown-item" href="./recursos/preguntas-frecuentes">FAQ</a>
             </div>
-            <!-- End Mega Menu -->
           </li>
-          <!-- End Blog -->
 
-          <!-- Portfolio -->
-          <li class="nav-item">
-            <a class="nav-link " href="#">Ingresar</a>
-          </li>
-          <!-- End Portfolio -->
 
-          <!-- Button -->
           <li class="nav-item">
-            <a class="btn btn-primary btn-transition" href="https://themes.getbootstrap.com/product/front-multipurpose-responsive-template/" target="_blank">Agendar reunión</a>
+            <a class="nav-link" href="./contacto">Contactar</a>
           </li>
-          <!-- End Button -->
+
+          <li class="nav-item">
+            <a class="nav-link" href="https://app.legalbox.cl/login">Ingresar</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="btn btn-primary btn-transition" href="#">Agendar reunión</a>
+          </li>
         </ul>
       </div>
-    </div>
-    <!-- End Collapse -->
-  </nav>
-</div>
+    </nav>
+  </div>
 </header>
 
 <div class="gradient-x-overlay-sm-primary position-relative overflow-hidden">
@@ -414,7 +284,7 @@
     </div>
 </div>
 
-<div class="overflow-hidden">
+<div id="precios" class="overflow-hidden">
     <div class="container content-space-t-lg-3 content-space-b-lg-2">
         <div class="row justify-content-lg-between align-items-lg-center">
         <div class="col-lg-5 order-lg-2 mb-9 mb-lg-0">
@@ -982,41 +852,58 @@
     <!-- End Socials -->
 </footer>
 
-<!-- JS Plugins Init. -->
-<script>
+  <!-- JS Implementing Plugins -->
+  <script src="./assets/js/vendor.min.js"></script>
+  <script src="./assets/vendor/aos/dist/aos.js"></script>
+
+  <!-- JS Front -->
+  <script src="./assets/js/theme.min.js"></script>
+
+  <!-- JS Plugins Init. -->
+  <script>
     (function() {
       // INITIALIZATION OF HEADER
       // =======================================================
       new HSHeader('#header').init()
-</script>
 
 
-<!-- JS Implementing Plugins -->
-<script src="../node_modules/typed.js/lib/typed.min.js"></script>
+      // INITIALIZATION OF MEGA MENU
+      // =======================================================
+      new HSMegaMenu('.js-mega-menu', {
+          desktop: {
+            position: 'left'
+          }
+        })
 
-<!-- JS Front -->
-<script src="../assets/js/hs.typed.js"></script>
 
-<!-- JS Plugins Init. -->
-<script>
-  (function() {
-    // INITIALIZATION OF TEXT ANIMATION (TYPING)
-    // =======================================================
-    HSCore.components.HSTyped.init('.js-typedjs')
-  })()
-</script>
+      // INITIALIZATION OF SHOW ANIMATIONS
+      // =======================================================
+      new HSShowAnimation('.js-animation-link')
 
-<!-- JS Implementing Plugins -->
-<script src="../assets/vendor/hs-nav-scroller/dist/hs-nav-scroller.min.js"></script>
 
-<!-- JS Plugins Init. -->
-<script>
-  (function() {
-    // INITIALIZATION OF NAV SCROLLER
-    // =======================================================
-    new HsNavScroller('.js-nav-scroller')
-  })()
-</script>
+      // INITIALIZATION OF BOOTSTRAP VALIDATION
+      // =======================================================
+      HSBsValidation.init('.js-validate', {
+        onSubmit: data => {
+          data.event.preventDefault()
+          alert('Submited')
+        }
+      })
+
+
+      // INITIALIZATION OF GO TO
+      // =======================================================
+      new HSGoTo('.js-go-to')
+
+
+      // INITIALIZATION OF AOS
+      // =======================================================
+      AOS.init({
+        duration: 650,
+        once: true
+      });
+    })()
+  </script>
 
 </body>
 </html>
