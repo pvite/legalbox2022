@@ -619,6 +619,33 @@ Software legal de cobranza <span class="fw-semi-bold">orientado a resultados</sp
     });
   </script>
 
+  <!-- JS Implementing Plugins -->
+<script src="../assets/vendor/hs-sticky-block/dist/hs-sticky-block.min.js"></script>
+<script src="../assets/vendor/hs-scrollspy/dist/hs-scrollspy.min.js"></script>
+
+<!-- JS Plugins Init. -->
+<script>
+  (function() {
+    // INITIALIZATION OF STICKY BLOCKS
+    // =======================================================
+    new HSStickyBlock('.js-sticky-block', {
+      targetSelector: document.getElementById('header').classList.contains('navbar-fixed') ? '#header' : null
+    })
+
+
+    // SCROLLSPY
+    // =======================================================
+    new bootstrap.ScrollSpy(document.body, {
+      target: '#navbarSettings2',
+      offset: 10
+    })
+
+    new HSScrollspy('#navbarVerticalNavMenu', {
+      breakpoint: 'lg'
+    })
+  })()
+</script>
+
 </body>
 </html>
 
