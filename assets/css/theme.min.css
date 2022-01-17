@@ -29352,10 +29352,6 @@ div.code-toolbar>.prism-light+.toolbar a:focus,div.code-toolbar>.prism-light+.to
     overflow: auto
 }
 
-.card-header {
-    border-width: 1px
-}
-
 .card .card .card-header {
     border-width: 0
 }
