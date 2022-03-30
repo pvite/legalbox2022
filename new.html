@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <title>Cobranza Judicial - Legalbox</title>
-    <meta name="description" content="Solución legal de cobranza para gestionar todo tipo de documentos por cobrar, 100% online y sin pagos anticipados. Abogados especialistas en cobranza.">
+    <title>Cobranza judicial, simple y en línea - Legalbox</title>
+    <meta name="description" content="Cobranza judicial para cobrar facturas, pagarés y más, sin pago anticipado. Vea como Legalbox puede ayudarlo con la cobranza judicial ante deudores reticentes.">
     <meta name="geo.placename" content="Santiago" /> 
     <meta property="og:type" content="website" />
 
@@ -38,7 +38,6 @@
       <div class="d-inline-block ml-auto">
         <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbarSignup" aria-controls="offcanvasNavbarSignup">
           <span class="d-none d-lg-inline-block">Iniciar demanda</span>
-          <i class="bi-envelope d-lg-none"></i>
         </button>
       </div>
     </div>
@@ -91,7 +90,7 @@
 
         <div class="col-md-6">
           <div class="position-relative">
-            <img style="max-height: 550px;" src="./assets/img/home/frame2.svg" alt="cobranza-judicial">
+            <img style="max-width: 540px; max-height: 540px;" src="./assets/img/home/frame2.svg" alt="cobranza-judicial">
           </div>
         </div>
         <!-- End Col -->
@@ -160,21 +159,10 @@
     <div class="col-md-5 order-md-2">
       <div class="mb-5">
         <h2 class="mb-3 display-6">Inicie una demanda con sólo algunos clics</h2>
-        <p>Cree su cuenta gratis, suba los documentos que necesita cobrar y nos encargamos del resto.</p>
+        <p>Cree su cuenta gratis, suba los documentos que necesita cobrar y nos encargamos de la cobranza judicial.</p>
       </div>
 
     </div>
-  </div>
-  </div>
-
-  <div class="container content-space-b-2">
-  <div class="text-center bg-img-start py-6" style="background: url(../assets/svg/components/shape-6.svg) center no-repeat;">
-    <div class="mb-5">
-      <h2>¿Tiene clientes sin disposición a pagar?</h2>
-      <p>Exija el pago con una demanda en el Poder Judicial, 100% online.</p>
-    </div>
-
-    <a class="btn btn-primary btn-transition" href="#">Iniciar demanda</a>
   </div>
   </div>
 
@@ -197,7 +185,7 @@
       <!-- Heading -->
       <div class="mb-5">
         <h2 class="mb-3 display-6">Los avances de cada demanda, al día</h2>
-        <p>Acceda a un dashboard con los avances de cada cobranza, sin costo y con actualización diaria.</p>
+        <p>Acceda a un dashboard con los avances de cada cobranza judicial, sin costo y con actualización diaria.</p>
       </div>
       <!-- End Heading -->
 
@@ -287,7 +275,7 @@
           <ul class="list-pointer list-pointer-soft-bg-light list-pointer-lg">
             <li class="list-pointer-item">
               <h4 class="text-white mb-1">Por abogados</h4>
-              <p class="text-white-70 mb-0">Expertos en cobrar de títulos ejecutivos impagos.</p>
+              <p class="text-white-70 mb-0">Expertos en cobranza judicial de títulos ejecutivos impagos.</p>
             </li>
 
             <li class="list-pointer-item">
@@ -314,7 +302,7 @@
   <div class="w-lg-75 mx-lg-auto">
     <div class="d-block d-sm-flex align-items-sm-center">
       <div class="flex-shrink-0 mb-3 mb-sm-0">
-        <img class="avatar avatar-xl avatar-4x3" src="../assets/svg/illustrations/growing-business.svg" alt="SVG">
+        <img class="avatar avatar-xl avatar-4x3" src="./assets/svg/components/crecimiento.svg" alt="SVG">
       </div>
 
       <div class="flex-grow-1 ms-4">
@@ -633,31 +621,6 @@
       // INITIALIZATION OF HEADER
       // =======================================================
       new HSHeader('#header').init()
-
-
-      // INITIALIZATION OF MEGA MENU
-      // =======================================================
-      new HSMegaMenu('.js-mega-menu', {
-          desktop: {
-            position: 'left'
-          }
-        })
-
-
-      // INITIALIZATION OF SHOW ANIMATIONS
-      // =======================================================
-      new HSShowAnimation('.js-animation-link')
-
-
-      // INITIALIZATION OF BOOTSTRAP VALIDATION
-      // =======================================================
-      HSBsValidation.init('.js-validate', {
-        onSubmit: data => {
-          data.event.preventDefault()
-          alert('Submited')
-        }
-      })
-
 
       // INITIALIZATION OF GO TO
       // =======================================================

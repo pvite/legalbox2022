@@ -40,10 +40,11 @@
     --bs-white-rgb: 255,255,255;
     --bs-black-rgb: 0,0,0;
     --bs-body-rgb: 103,119,136;
-    --bs-font-sans-serif: system-ui,-apple-system,"Segoe UI",Roboto,"Merriweather","Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    --bs-font-sans-serif: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
     --bs-font-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
     --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
     --bs-body-font-family: Inter,sans-serif;
+    --bs-body-font-family-blog: Merriweather,serif;
     --bs-body-font-size: 1rem;
     --bs-body-font-weight: 400;
     --bs-body-line-height: 1.5;
@@ -29411,4 +29412,19 @@ div.code-toolbar>.prism-light+.toolbar a:focus,div.code-toolbar>.prism-light+.to
 .card-nav-tab-content-height .tab-pane {
     max-height: 40rem;
     overflow-y: auto
+}
+
+.lectura {
+    font-family: 'Lora', serif;
+    font-size: 1.3rem;
+    color: #292929;
+    line-height: 150%;
+}
+
+.lectura h2,h3,h4,h5 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-weight: 600;
+    line-height: 1.2;
+    color: #1e2022
 }
