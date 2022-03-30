@@ -29416,15 +29416,53 @@ div.code-toolbar>.prism-light+.toolbar a:focus,div.code-toolbar>.prism-light+.to
 
 .lectura {
     font-family: 'Lora', serif;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     color: #292929;
-    line-height: 150%;
+    line-height: 140%;
 }
 
-.lectura h2,h3,h4,h5 {
+
+.lectura h1,h2,h3,h4,h5,h6 {
     margin-top: 0;
     margin-bottom: 1rem;
     font-weight: 600;
     line-height: 1.2;
     color: #1e2022
+}
+
+.lectura h2 {
+    font-size:1.75rem;
+    }
+
+@media (min-width: 1200px) {
+    .lectura h2 {
+        font-size:1.75rem
+    }
+}
+
+.lectura h3 {
+    font-size: calc(1.25625rem + .075vw)
+}
+
+@media (min-width: 1200px) {
+    .lectura h3 {
+        font-size:1.3125rem
+    }
+}
+
+.lectura h4 {
+    font-size: 1.125rem
+}
+
+.lectura h5 {
+    font-size: 1rem
+}
+
+.lectura h6 {
+    font-size: .875rem
+}
+
+.lectura p {
+    margin-top: 0;
+    margin-bottom: 1rem
 }
