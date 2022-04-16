@@ -20,74 +20,53 @@
 <link rel="shortcut icon" href="../assets/svg/logos/Legalbox-isotipo.svg">
 <link rel="stylesheet" href="../assets/css/theme.min.css">
 <link rel="stylesheet" href="../assets/css/vendor.min.css">
+<link rel="stylesheet" href="../assets/css/bootstrap.css">
 
 </head>
 
 <body>
 
-<header id="header" class="navbar navbar-expand-lg navbar-end navbar-light bg-white">
-    <div class="container">
-        <nav class="js-mega-menu navbar-nav-wrap">
-        <a class="navbar-brand" href="../" aria-label="Legalbox">
-            <img class="navbar-brand-logo" src="../assets/svg/logos/legalbox_logo.svg" alt="Logo-Legalbox">
+<header id="header" class="navbar navbar-expand-lg navbar-end navbar-absolute-top navbar-light bg-white">
+<div class="container">
+<nav class="js-mega-menu navbar-nav-wrap">
+<a class="navbar-brand" href="../" aria-label="Legalbox">
+    <img class="navbar-brand-logo" src="../assets/svg/logos/legalbox_logo.svg" alt="Logo-Legalbox">
+</a>
+
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-default">
+    <i class="bi-list"></i>
+    </span>
+    <span class="navbar-toggler-toggled">
+    <i class="bi-x"></i>
+    </span>
+</button>
+
+<div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+
+    <li class="nav-item">
+        <a class="nav-link" href="./blog">Blog</a>
+    </li>
+
+    <li class="nav-item">
+        <a class="nav-link" href="https://app.legalbox.cl/login" target="blank">Ingresar
+        <i class="bi-box-arrow-up-right small ms-1"></i>
         </a>
-    
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-default">
-            <i class="bi-list"></i>
-            </span>
-            <span class="navbar-toggler-toggled">
-            <i class="bi-x"></i>
-            </span>
-        </button>
-    
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav">
-    
-            <li class="hs-has-sub-menu nav-item">
-                <a id="companyMegaMenu" class="hs-mega-menu-invoker nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Servicios</a>
-    
-                <div class="hs-sub-menu dropdown-menu" aria-labelledby="companyMegaMenu" style="min-width: 14rem;">
-                <a class="dropdown-item" href="../servicios/cobranza-judicial">Cobranza judicial</a>
-                <a class="dropdown-item" href="../servicios/cobranza-prejudicial">Cobranza prejudicial</a>
-                <a class="dropdown-item" href="../servicios/juicio-civil-cobranza">Juicio civil</a>
-                <a class="dropdown-item" href="../servicios/certificado-incobrabilidad">Certificado de incobrabilidad</a>
-                <a class="dropdown-item" href="../servicios/recupera-iva">Recuperar IVA</a>
-                </div>
-            </li>
-    
-            <li class="hs-has-sub-menu nav-item">
-                <a id="accountMegaMenu" class="hs-mega-menu-invoker nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Recursos</a>
-    
-                <div class="hs-sub-menu dropdown-menu" aria-labelledby="accountMegaMenu" style="min-width: 14rem;">
-                <a class="dropdown-item" href="../recursos">Blog</a>
-                <a class="dropdown-item" href="../recursos/preguntas-frecuentes">FAQ</a>
-                </div>
-            </li>
-    
-    
-            <li class="nav-item">
-                <a class="nav-link" href="../contacto">Contactar</a>
-            </li>
-    
-            <li class="nav-item">
-                <a class="nav-link" href="https://app.legalbox.cl/login" target="blank">Ingresar
-                <i class="bi-box-arrow-up-right small ms-1"></i>
-                </a>
-            </li>
-    
-            <li class="nav-item">
-                <a class="btn btn-primary btn-transition" target="blank" href="https://meetings.hubspot.com/pedro126">Agendar Demo</a>
-            </li>
-            </ul>
-        </div>
-        </nav>
-    </div>
+    </li>
+
+    <li class="nav-item">
+        <a class="btn btn-primary btn-transition" target="blank" href="https://app.legalbox.cl/signup">Iniciar demanda</a>
+    </li>
+    </ul>
+</div>
+</nav>
+</div>
 </header>
 
   <main id="content" role="main">
 
-    <div class="container content-space-t-1 content-space-t-lg-2">
+    <div class="container content-space-t-3 content-space-t-lg-3">
     <div class="w-lg-65 mx-lg-auto">
     <div class="mb-4">
     <h1 class="display-5">Morosidad de empresas en Chile: Informe CCS</h1>
@@ -105,7 +84,7 @@
 
                 <div class="flex-grow-1">
                 <h5 class="mb-0">
-                    <a class="text-dark">1 MIN DE LECTURA</a>
+                    <a class="text-dark">3 MIN DE LECTURA</a>
                 </h5>
                 </div>
             </div>
@@ -287,68 +266,30 @@
 </main>
 
 <footer class="container content-space-2 text-center">
-  <!-- Logo -->
+
   <a class="d-inline-flex align-items-center mb-3" href="index.html" aria-label="Front">
-    <img class="brand" src="../assets/svg/logos/legalbox-logo.png" alt="Logo">
+  <img class="brand" src="../assets/svg/logos/legalbox-logo.png" alt="Logo">
   </a>
-  <!-- End Logo -->
 
   <p class="fs-6">© Legalbox 2022. Todos los derechos reservados.</p>
 
-  <!-- Socials -->
   <ul class="list-inline mb-0">
-    <li class="list-inline-item">
-      <a class="btn btn-ghost-secondary btn-sm btn-icon rounded-circle" href="#">
-        <i class="bi-facebook"></i>
-      </a>
-    </li>
-    <li class="list-inline-item">
-      <a class="btn btn-ghost-secondary btn-sm btn-icon rounded-circle" href="#">
-        <i class="bi-slack"></i>
-      </a>
-    </li>
-    <li class="list-inline-item">
-      <a class="btn btn-ghost-secondary btn-sm btn-icon rounded-circle" href="#">
-        <i class="bi-github"></i>
-      </a>
-    </li>
-    <li class="list-inline-item">
-      <a class="btn btn-ghost-secondary btn-sm btn-icon rounded-circle" href="#">
-        <i class="bi-twitter"></i>
-      </a>
-    </li>
-    <li class="list-inline-item">
-      <a class="btn btn-ghost-secondary btn-sm btn-icon rounded-circle" href="#">
-        <i class="bi-instagram"></i>
-      </a>
-    </li>
+  <li class="list-inline-item">
+  <a class="btn btn-ghost-secondary btn-sm btn-icon rounded-circle" href="#">
+  <i class="bi-whatsapp"></i>
+  </a>
+  </li>
+  <li class="list-inline-item">
+  <a class="btn btn-ghost-secondary btn-sm btn-icon rounded-circle" href="#">
+  <i class="bi-linkedin"></i>
+  </a>
+  </li>
   </ul>
-  <!-- End Socials -->
+
 </footer>
 
-  <script src="./assets/js/vendor.min.js"></script>
+<script src="../assets/js/vendor.min.js">
+</script>  
 
-  <script src="./assets/js/theme.min.js"></script>
-
-  <script>
-    (function() {
-      // INITIALIZATION OF HEADER
-      // =======================================================
-      new HSHeader('#header').init()
-
-
-      // INITIALIZATION OF MEGA MENU
-      // =======================================================
-      new HSMegaMenu('.js-mega-menu', {
-          desktop: {
-            position: 'left'
-          }
-        })
-
-      // INITIALIZATION OF GO TO
-      // =======================================================
-      new HSGoTo('.js-go-to')
-    })()
-  </script>
 </body>
 </html>
