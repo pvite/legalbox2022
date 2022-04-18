@@ -34,14 +34,6 @@
       <img class="navbar-brand-logo" src="./assets/svg/logos/legalbox_logo.svg" alt="Logo-Legalbox">
     </a>
 
-    <div class="navbar-nav-wrap-secondary-content">
-      <div class="d-inline-block ml-auto">
-        <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbarSignup" aria-controls="offcanvasNavbarSignup">
-          <span class="d-none d-lg-inline-block">Iniciar demanda</span>
-        </button>
-      </div>
-    </div>
-
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-default">
         <i class="bi-list"></i>
@@ -54,14 +46,18 @@
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
       <ul class="navbar-nav">
 
-        <li class="nav-item">
+        <!-- <li class="nav-item">
             <a class="nav-link" href="./contacto">Blog</a>
-          </li>
+          </li> -->
 
           <li class="nav-item nav-link">
           <a class="nav-link" href="https://app.legalbox.cl/login" target="blank">Ingresar
             <i class="bi-box-arrow-up-right small ms-1"></i>
           </a>
+        </li>
+
+        <li class="nav-item">
+          <a class="btn btn-primary btn-transition" href="https://app.legalbox.cl/signup" target="_blank">Iniciar demanda</a>
         </li>
       </ul>
     </div>
@@ -82,15 +78,15 @@
           <!-- End Title & Description -->
 
           <div class="d-grid d-sm-flex gap-3">
-            <a class="btn btn-primary btn-transition" href="#caseStudies">Iniciar demanda</a>
-            <a class="btn btn-link" href="#">Más información <i class="bi-chevron-right small ms-1"></i></a>
+            <a class="btn btn-primary btn-transition" href="https://app.legalbox.cl/signup" target="blank">Iniciar demanda</a>
+            <a class="btn btn-link" href="#contacto">Contactar <i class="bi-chevron-right small ms-1"></i></a>
           </div>
         </div>
         <!-- End Col -->
 
         <div class="col-md-6">
           <div class="position-relative">
-            <img style="max-width: 540px; max-height: 540px;" src="./assets/img/home/frame2.svg" alt="cobranza-judicial">
+            <img class="img-fluid rounded-2" src="./assets/img/home/cobranza-judicial.svg" alt="Image Description">
           </div>
         </div>
         <!-- End Col -->
@@ -203,115 +199,110 @@
   </div>
 
   <div class="container content-space-2 content-space-lg-3">
-  <!-- Heading -->
-  <div class="w-lg-50 text-center mx-lg-auto mb-5 mb-md-9">
-    <h2 class="display-6">Pague solo si recibe el pago</h2>
-    <p>No gaste más en cobrar.</p>
-  </div>
-  <!-- End Heading -->
+    <div class="w-lg-50 text-center mx-lg-auto mb-5 mb-md-9">
+      <h2 class="display-6">Pague solo si recibe el pago</h2>
+      <p>No gaste más en cobrar, en Legalbox nos orientamos a resultados</p>
+    </div>
 
-  <div class="row gx-0 align-items-lg-center mb-7 mb-md-10">
-    <div class="col-lg-7">
-      <!-- Card -->
-      <div class="card card-lg text-center zi-2" data-aos="fade-up">
-        <div class="card-header pb-0">
-          <div class="mb-1">
-            <span class="display-4 text-primary">10%</span>
-            <span class="badge bg-dark rounded-pill align-top ms-1">Sin costo fijo</span>
+    <div class="row gx-0 align-items-lg-center mb-7 mb-md-10">
+      <div class="col-lg-7">
+        <!-- Card -->
+        <div class="card card-lg text-center zi-2" data-aos="fade-up">
+          <div class="card-header pb-0">
+            <div class="mb-1">
+              <span class="display-4 text-primary">10%</span>
+              <span class="badge bg-dark rounded-pill align-top ms-1">Sin costo fijo</span>
+            </div>
+            <p>del total cobrado</p>
           </div>
-          <p>del total cobrado</p>
-        </div>
 
-        <div class="card-body">
-          <div class="row justify-content-sm-center align-items-sm-center mb-5">
-            <div class="col-sm-5">
-              <div class="mb-2">
-                  <svg width="3rem" height="3rem" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M20 19H4C2.9 19 2 18.1 2 17H22C22 18.1 21.1 19 20 19Z" fill="#377dff"></path>
-                  <path opacity="0.3" d="M20 5H4C3.4 5 3 5.4 3 6V17H21V6C21 5.4 20.6 5 20 5Z" fill="#377dff"></path>
-                  </svg>
+          <div class="card-body">
+            <div class="row justify-content-sm-center align-items-sm-center mb-5">
+              <div class="col-sm-5">
+                <div class="mb-2">
+                    <svg width="3rem" height="3rem" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M20 19H4C2.9 19 2 18.1 2 17H22C22 18.1 21.1 19 20 19Z" fill="#377dff"></path>
+                    <path opacity="0.3" d="M20 5H4C3.4 5 3 5.4 3 6V17H21V6C21 5.4 20.6 5 20 5Z" fill="#377dff"></path>
+                    </svg>
+                </div>
+
+                <h4>Cuenta gratis</h4>
               </div>
+              <!-- End Col -->
 
-              <h4>Cuenta gratis</h4>
-            </div>
-            <!-- End Col -->
-
-            <div class="col-sm-1 my-3 my-sm-0">
-              <span class="fs-3 text-primary">+</span>
-            </div>
-            <!-- End Col -->
-
-            <div class="col-sm-5">
-              <div class="mb-2">
-                  <svg width="3rem" height="3rem" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M13 10.9128V3.01281C13 2.41281 13.5 1.91281 14.1 2.01281C16.1 2.21281 17.9 3.11284 19.3 4.61284C20.7 6.01284 21.6 7.91285 21.9 9.81285C22 10.4129 21.5 10.9128 20.9 10.9128H13V10.9128Z" fill="#377dff"></path>
-                  <path opacity="0.3" d="M13 12.9128V20.8129C13 21.4129 13.5 21.9129 14.1 21.8129C16.1 21.6129 17.9 20.7128 19.3 19.2128C20.7 17.8128 21.6 15.9128 21.9 14.0128C22 13.4128 21.5 12.9128 20.9 12.9128H13V12.9128Z" fill="#377dff"></path>
-                  <path opacity="0.3" d="M11 19.8129C11 20.4129 10.5 20.9129 9.89999 20.8129C5.49999 20.2129 2 16.5128 2 11.9128C2 7.31283 5.39999 3.51281 9.89999 3.01281C10.5 2.91281 11 3.41281 11 4.01281V19.8129Z" fill="#377dff"></path>
-                  </svg>
+              <div class="col-sm-1 my-3 my-sm-0">
+                <span class="fs-3 text-primary">+</span>
               </div>
+              <!-- End Col -->
 
-              <h4>Reporte mensual</h4>
+              <div class="col-sm-5">
+                <div class="mb-2">
+                    <svg width="3rem" height="3rem" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M13 10.9128V3.01281C13 2.41281 13.5 1.91281 14.1 2.01281C16.1 2.21281 17.9 3.11284 19.3 4.61284C20.7 6.01284 21.6 7.91285 21.9 9.81285C22 10.4129 21.5 10.9128 20.9 10.9128H13V10.9128Z" fill="#377dff"></path>
+                    <path opacity="0.3" d="M13 12.9128V20.8129C13 21.4129 13.5 21.9129 14.1 21.8129C16.1 21.6129 17.9 20.7128 19.3 19.2128C20.7 17.8128 21.6 15.9128 21.9 14.0128C22 13.4128 21.5 12.9128 20.9 12.9128H13V12.9128Z" fill="#377dff"></path>
+                    <path opacity="0.3" d="M11 19.8129C11 20.4129 10.5 20.9129 9.89999 20.8129C5.49999 20.2129 2 16.5128 2 11.9128C2 7.31283 5.39999 3.51281 9.89999 3.01281C10.5 2.91281 11 3.41281 11 4.01281V19.8129Z" fill="#377dff"></path>
+                    </svg>
+                </div>
+
+                <h4>Reporte mensual</h4>
+              </div>
+              <!-- End Col -->
             </div>
-            <!-- End Col -->
-          </div>
-          <!-- End Row -->
+            <!-- End Row -->
 
-          <div class="mb-7">
-            <p class="card-text small">Gastos de notificación <br> y mandato: $160.000 aprox.</p>
-          </div>
+            <div class="mb-7">
+              <p class="card-text small">Gastos de notificación <br> y mandato: $160.000 aprox.</p>
+            </div>
 
-          <button type="button" class="btn btn-primary btn-transition px-6">Iniciar demanda</button>
+            <a type="button" class="btn btn-primary btn-transition px-6" href="https://app.legalbox.cl/signup" target="blank">Iniciar demanda</a>
+          </div>
+        </div>
+        <!-- End Card -->
+      </div>
+      <!-- End Col -->
+
+      <div class="col-lg-5">
+        <!-- Card -->
+        <div class="card card-lg bg-dark ms-md-n2" data-aos="fade-up" data-aos-delay="200">
+          <div class="card-body">
+            <!-- List Checked -->
+            <ul class="list-pointer list-pointer-soft-bg-light list-pointer-lg">
+              <li class="list-pointer-item">
+                <h4 class="text-white mb-1">Por abogados</h4>
+                <p class="text-white-70 mb-0">Expertos en cobranza judicial de títulos ejecutivos impagos.</p>
+              </li>
+
+              <li class="list-pointer-item">
+                <h4 class="text-white mb-1">Transparente</h4>
+                <p class="text-white-70 mb-0">Revise en línea los avances de cada demanda.</p>
+              </li>
+
+              <li class="list-pointer-item">
+                <h4 class="text-white mb-1">Orientado a resultados</h4>
+                <p class="text-white-70 mb-0">Sin costo fijo o anticipado, nunca.</p>
+              </li>
+              
+            </ul>
+            <!-- End List Checked -->
+          </div>
+        </div>
+        <!-- End Card -->
+      </div>
+      <!-- End Col -->
+    </div>
+
+    <div class="w-lg-75 mx-lg-auto">
+      <div class="d-block d-sm-flex align-items-sm-center">
+        <div class="flex-shrink-0 mb-3 mb-sm-0">
+          <img class="avatar avatar-xl avatar-4x3" src="./assets/svg/components/crecimiento.svg" alt="SVG">
+        </div>
+
+        <div class="flex-grow-1 ms-4">
+          <h4>Obtenga una cotización personalizada</h4>
+          <p class="mb-0">¿Busca un partner para sus operaciones de cobranza? <a class="link" href="#contacto">Contactar <i class="bi-chevron-right small"></i></a></p>
         </div>
       </div>
-      <!-- End Card -->
     </div>
-    <!-- End Col -->
-
-    <div class="col-lg-5">
-      <!-- Card -->
-      <div class="card card-lg bg-dark ms-md-n2" data-aos="fade-up" data-aos-delay="200">
-        <div class="card-body">
-          <!-- List Checked -->
-          <ul class="list-pointer list-pointer-soft-bg-light list-pointer-lg">
-            <li class="list-pointer-item">
-              <h4 class="text-white mb-1">Por abogados</h4>
-              <p class="text-white-70 mb-0">Expertos en cobranza judicial de títulos ejecutivos impagos.</p>
-            </li>
-
-            <li class="list-pointer-item">
-              <h4 class="text-white mb-1">Transparente</h4>
-              <p class="text-white-70 mb-0">Revise en línea los avances de cada demanda.</p>
-            </li>
-
-            <li class="list-pointer-item">
-              <h4 class="text-white mb-1">Orientado a resultados</h4>
-              <p class="text-white-70 mb-0">Sin costo fijo o anticipado, nunca.</p>
-            </li>
-            
-          </ul>
-          <!-- End List Checked -->
-        </div>
-      </div>
-      <!-- End Card -->
-    </div>
-    <!-- End Col -->
-  </div>
-  <!-- End Row -->
-
-  <!-- CTA -->
-  <div class="w-lg-75 mx-lg-auto">
-    <div class="d-block d-sm-flex align-items-sm-center">
-      <div class="flex-shrink-0 mb-3 mb-sm-0">
-        <img class="avatar avatar-xl avatar-4x3" src="./assets/svg/components/crecimiento.svg" alt="SVG">
-      </div>
-
-      <div class="flex-grow-1 ms-4">
-        <h4>Obtenga una cotización personalizada</h4>
-        <p class="mb-0">¿Necesita una propuesta comercial específica?  <a class="link" href="#">Contactar <i class="bi-chevron-right small"></i></a></p>
-      </div>
-    </div>
-  </div>
-  <!-- End CTA -->
   </div>
 
   <div class="container content-space-2 content-space-b-lg-3">
@@ -487,7 +478,7 @@
       </div>
   </div>
 
-<footer class="bg-dark position-relative">
+<footer class="bg-dark position-relative" id="contacto">
     <div class="container content-space-b-1 position-relative z-2">
       <div class="row justify-content-lg-between mb-10">
         <div class="col-lg-5 content-space-t-2 content-space-t-lg-3 mb-7 mb-lg-0">
@@ -538,7 +529,7 @@
               </div>
   
               <!-- Form -->
-              <form>
+              <form action="/dis/gracias">
                 <div class="row gx-3">
                   <div class="col-sm-6">
                     <!-- Form -->
@@ -579,7 +570,7 @@
                 <!-- Form -->
                 <div class="mb-3">
                   <label class="form-label visually-hidden" for="hireUsFormDetails">Detalles</label>
-                  <textarea class="form-control form-control-lg" name="hireUsFormNameDetails" id="hireUsFormDetails" placeholder="¿Cómo lo podemos ayudar?" aria-label="Tell us about your project" rows="4"></textarea>
+                  <textarea class="form-control form-control-lg" name="message" id="message" placeholder="¿Cómo lo podemos ayudar?" aria-label="¿Cómo lo podemos ayudar?" rows="4"></textarea>
                 </div>
                 <!-- End Form -->
   
@@ -610,7 +601,6 @@
     </div>
   
 </footer>
-
 
   <!-- JS Implementing Plugins -->
   <script src="./assets/js/vendor.min.js"></script>
