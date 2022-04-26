@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es" dir="">
+<html lang="es">
 
 <head>
 <meta charset="UTF-8">
@@ -27,42 +27,48 @@
 
 <body>
 
-<header id="header" class="navbar navbar-expand-lg navbar-end navbar-absolute-top navbar-light bg-white">
-<div class="container">
-<nav class="js-mega-menu navbar-nav-wrap">
-<a class="navbar-brand" href="../" aria-label="Legalbox">
-    <img class="navbar-brand-logo" src="../assets/svg/logos/legalbox_logo.svg" alt="Logo-Legalbox">
-</a>
+<header id="header" data-hs-header-options="{
+    &quot;fixMoment&quot;: 1000,
+    &quot;fixEffect&quot;: &quot;slide&quot;
+    }" hsheader="true" class="navbar navbar-expand-lg navbar-end navbar-absolute-top navbar-show-hide bg-white">
 
-<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-default">
-    <i class="bi-list"></i>
-    </span>
-    <span class="navbar-toggler-toggled">
-    <i class="bi-x"></i>
-    </span>
-</button>
+    <div class="container">
+        <nav class="js-mega-menu navbar-nav-wrap">
 
-<div class="collapse navbar-collapse" id="navbarNavDropdown">
-    <ul class="navbar-nav">
-
-    <li class="nav-item">
-        <a class="nav-link" href="./">Blog</a>
-    </li>
-
-    <li class="nav-item">
-        <a class="nav-link" href="https://app.legalbox.cl/login" target="blank">Ingresar
-        <i class="bi-box-arrow-up-right small ms-1"></i>
+        <a class="navbar-brand" href="./" aria-label="Legalbox">
+        <img class="navbar-brand-logo" src="../assets/svg/logos/legalbox_logo.svg" alt="Logo-Legalbox">
         </a>
-    </li>
 
-    <li class="nav-item">
-        <a class="btn btn-primary btn-transition" target="blank" href="https://app.legalbox.cl/signup">Iniciar demanda</a>
-    </li>
-    </ul>
-</div>
-</nav>
-</div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-default">
+        <i class="bi-list"></i>
+        </span>
+        <span class="navbar-toggler-toggled">
+        <i class="bi-x"></i>
+        </span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+
+        <li class="nav-item">
+            <a class="nav-link" href="./">Blog</a>
+        </li>
+
+        <li class="nav-item nav-link">
+            <a class="nav-link" href="https://app.legalbox.cl/login" target="blank">Ingresar
+            <i class="bi-box-arrow-up-right small ms-1"></i>
+            </a>
+        </li>
+
+        <li class="nav-item">
+            <a class="btn btn-primary btn-transition" href="https://app.legalbox.cl/signup" target="_blank">Iniciar demanda</a>
+        </li>
+        </ul>
+        </div>
+
+        </nav>
+    </div>
 </header>
 
   <main id="content" role="main">
@@ -84,8 +90,8 @@
             <div class="d-flex align-items-center">
 
                 <div class="flex-grow-1">
-                <h5 class="mb-0">
-                    <a class="text-dark">2 MIN DE LECTURA</a>
+                    <p class="h5 mb-0">
+                        <a class="text-dark">2 MIN DE LECTURA</a>
                 </h5>
                 </div>
             </div>
@@ -167,10 +173,10 @@
           <div class="col-sm-6 col-lg-4 mb-5">
             <!-- Card -->
             <a class="card card-flush h-100" href="./que-es-la-cobranza-judicial" data-aos="fade-up">
-              <img class="card-img" src="../assets/img/blog/requisitos-de-cobranza-judicial.jpeg" alt="Cobranza Judicial: Qué es y cómo puede ayudarlo a cobrar">
+              <img class="card-img" src="../assets/img/blog/que-es-cobranza-judicial.jpeg" alt="Cobranza Judicial: Qué es y cómo puede ayudarlo a cobrar">
               <div class="card-body">
                 <span class="card-subtitle text-body">Cobranza</span>
-                <h4 class="card-title text-inherit">Cobranza Judicial: Qué es y cómo puede ayudarlo</h4>
+                <h3 class="h4 card-title text-inherit">Cobranza Judicial: Qué es y cómo puede ayudarlo</h3>
                 <p class="card-text text-body">¿Se ve enfrentado a deudores reticentes a pagar? Evalúe la cobranza judicial</p>
               </div>
             </a>
@@ -184,7 +190,7 @@
               <img class="card-img" src="../assets/img/blog/cobranza-judicial.jpeg" alt="¿Cómo cobrar facturas impagas? Datos y consejos">
               <div class="card-body">
                 <span class="card-subtitle text-body">Cobranza</span>
-                <h4 class="card-title text-inherit">¿Cómo cobrar facturas impagas? Datos y consejos</h4>
+                <h3 class="h4 card-title text-inherit">¿Cómo cobrar facturas impagas? Datos y consejos</h3>
                 <p class="card-text text-body">¿Son cada vez más los clientes que no le pagan a tiempo? Consejos útiles para cobrar.</p>
               </div>
             </a>
@@ -198,7 +204,7 @@
               <img class="card-img" src="../assets/img/blog/plantillas-carta-cobranza.jpeg" alt="Image Description">
               <div class="card-body">
                 <span class="card-subtitle text-body">Cobranza</span>
-                <h4 class="card-title text-inherit">Requisitos de la cobranza judicial en Chile</h4>
+                <h3 class="h4 card-title text-inherit">Requisitos de la cobranza judicial en Chile</h3>
                 <p class="card-text text-body">Revise los requisitos fundamentales que deben cumplir los títulos para iniciar una cobranza</p>
               </div>
             </a>
@@ -222,133 +228,130 @@
 </main>
     
 <footer class="bg-dark position-relative" id="contacto">
-<div class="container content-space-b-1 position-relative z-2">
-    <div class="row justify-content-lg-between mb-10">
-    <div class="col-lg-5 content-space-t-2 content-space-t-lg-3 mb-7 mb-lg-0">
-        <!-- Heading -->
-        <div class="mb-7">
-        <h2 class="h1 text-white">Estamos para ayudarle</h2>
-        <p class="text-white-70">Averigue como Legalbox puede ayudarlo con la cobranza judicial ante deudores reticentes a pagar.</p>
-        </div>
-        <!-- End Heading -->
-
-        <div class="row">
-        <div class="col-sm-6 mb-5">
-            <span class="icon icon-soft-light icon-circle mb-3">
-            <i class="bi-envelope-open-fill"></i>
-            </span>
-            <h4 class="text-white mb-0">Contacto vía email</h4>
-            <a class="text-white-70 small" href="mailto:pedro@legalbox.cl">pedro@legalbox.cl</a>
-        </div>
-        <!-- End Col -->
-
-        <div class="col-sm-6 mb-5">
-            <span class="icon icon-soft-light icon-circle mb-3">
-            <i class="bi-telephone-inbound-fill"></i>
-            </span>
-            <h4 class="text-white mb-0">Número telefónico</h4>
-            <a class="text-white-70 small" href="tel:+56987439874">+(56) 9 8743 9874</a>
-        </div>
-        <!-- End Col -->
-
-        <div class="col-sm-6">
-            <span class="icon icon-soft-light icon-circle mb-3">
-            <i class="bi bi-camera-video"></i>
-            </span>
-            <h4 class="text-white mb-0">Agende reunión</h4>
-            <a class="text-white-70 small" href="https://meetings.hubspot.com/pedro126">Clic para videollamada</a>
-        </div>
-        <!-- End Col -->
-        </div>
-        <!-- End Row -->
-    </div>
-
-    <div class="col-lg-6 mt-lg-n10">
-        <!-- Card -->
-        <div class="card zi-2">
-        <div class="card-body">
-            <div class="mb-4">
-            <h3>Déjenos un mensaje</h3>
+    <div class="container content-space-b-1 position-relative z-2">
+      <div class="row justify-content-lg-between mb-10">
+        <div class="col-lg-5 content-space-t-2 content-space-t-lg-3 mb-7 mb-lg-0">
+          <!-- Heading -->
+          <div class="mb-7">
+            <h2 class="h1 text-white">Estamos para ayudarle</h2>
+            <p class="text-white-70">Averigue como Legalbox puede ayudarlo con la cobranza judicial ante deudores reticentes a pagar.</p>
+          </div>
+          <!-- End Heading -->
+  
+          <div class="row">
+            <div class="col-sm-6 mb-5">
+              <span class="icon icon-soft-light icon-circle mb-3">
+                <i class="bi-envelope-open-fill"></i>
+              </span>
+              <h3 class="h4 text-white mb-0">Contacto vía email</h3>
+              <a class="text-white-70 small" href="mailto:pedro@legalbox.cl">pedro@legalbox.cl</a>
             </div>
-
-            <!-- Form -->
-            <form action="/dis/gracias" id="contact-form">
-            <div class="row gx-3">
-                <div class="col-sm-6">
+            <!-- End Col -->
+  
+            <div class="col-sm-6 mb-5">
+              <span class="icon icon-soft-light icon-circle mb-3">
+                <i class="bi-telephone-inbound-fill"></i>
+              </span>
+              <h3 class="h4 text-white mb-0">Número telefónico</h3>
+              <a class="text-white-70 small" href="tel:+56987439874">+(56) 9 8743 9874</a>
+            </div>
+            <!-- End Col -->
+  
+            <div class="col-sm-6">
+              <span class="icon icon-soft-light icon-circle mb-3">
+                <i class="bi bi-camera-video"></i>
+              </span>
+              <h3 class="h4 text-white mb-0">Agende reunión</h3>
+              <a class="text-white-70 small" href="https://meetings.hubspot.com/pedro126">Clic para videollamada</a>
+            </div>
+            <!-- End Col -->
+          </div>
+          <!-- End Row -->
+        </div>
+  
+        <div class="col-lg-6 mt-lg-n10">
+          <!-- Card -->
+          <div class="card zi-2">
+            <div class="card-body">
+              <div class="mb-4">
+                <h3>Déjenos un mensaje</h3>
+              </div>
+  
+              <!-- Form -->
+              <form action="/dis/gracias" id="contact-form">
+                <div class="row gx-3">
+                  <div class="col-sm-6">
+                    <!-- Form -->
+                    <div class="mb-3">
+                      <label class="form-label visually-hidden" for="hireUsFormFirstName">Nombre</label>
+                      <input type="text" class="form-control form-control-lg" name="firstname" id="hireUsFormFirstName" placeholder="Nombre" aria-label="First name">
+                    </div>
+                    <!-- End Form -->
+                  </div>
+                  <!-- End Col -->
+  
+                  <div class="col-sm-6">
+                    <!-- Form -->
+                    <div class="mb-3">
+                      <label class="form-label visually-hidden" for="hireUsFormLasttName">Apellido</label>
+                      <input type="text" class="form-control form-control-lg" name="lastname" id="hireUsFormLasttName" placeholder="Apellido" aria-label="Last name">
+                    </div>
+                    <!-- End Form -->
+                  </div>
+                  <!-- End Col -->
+                </div>
+                <!-- End Row -->
+  
                 <!-- Form -->
                 <div class="mb-3">
-                    <label class="form-label visually-hidden" for="hireUsFormFirstName">Nombre</label>
-                    <input type="text" class="form-control form-control-lg" name="firstname" id="hireUsFormFirstName" placeholder="Nombre" aria-label="First name">
+                  <label class="form-label visually-hidden" for="hireUsFormWorkEmail">Email</label>
+                  <input type="email" class="form-control form-control-lg" name="email" id="hireUsFormWorkEmail" placeholder="Email" aria-label="email@site.com">
                 </div>
                 <!-- End Form -->
-                </div>
-                <!-- End Col -->
-
-                <div class="col-sm-6">
+  
                 <!-- Form -->
                 <div class="mb-3">
-                    <label class="form-label visually-hidden" for="hireUsFormLasttName">Apellido</label>
-                    <input type="text" class="form-control form-control-lg" name="lastname" id="hireUsFormLasttName" placeholder="Apellido" aria-label="Last name">
+                  <label class="form-label visually-hidden" for="hireUsFormCompanyNameEg1">Teléfono <span class="form-label-secondary">(Optional)</span></label>
+                  <input type="text" class="form-control form-control-lg" name="phone" id="Telefono" placeholder="Teléfono" aria-label="Teléfono" required data-msg="Por favor, ingrese su teléfono">
                 </div>
                 <!-- End Form -->
+  
+                <!-- Form -->
+                <div class="mb-3">
+                  <label class="form-label visually-hidden" for="hireUsFormDetails">Detalles</label>
+                  <textarea class="form-control form-control-lg" name="message" id="message" placeholder="¿Cómo lo podemos ayudar?" aria-label="¿Cómo lo podemos ayudar?" rows="4"></textarea>
                 </div>
-                <!-- End Col -->
+                <!-- End Form -->
+  
+                <div class="d-grid mb-2">
+                  <button type="submit" class="btn btn-primary btn-lg">Solicitar contacto</button>
+                </div>
+  
+                <div class="text-center">
+                  <span class="form-text">Le escribiremos en menos de 15 minutos</span>
+                </div>
+              </form>
+              <!-- End Form -->
             </div>
-            <!-- End Row -->
-
-            <!-- Form -->
-            <div class="mb-3">
-                <label class="form-label visually-hidden" for="hireUsFormWorkEmail">Email</label>
-                <input type="email" class="form-control form-control-lg" name="email" id="hireUsFormWorkEmail" placeholder="Email" aria-label="email@site.com">
-            </div>
-            <!-- End Form -->
-
-            <!-- Form -->
-            <div class="mb-3">
-                <label class="form-label visually-hidden" for="hireUsFormCompanyNameEg1">Teléfono <span class="form-label-secondary">(Optional)</span></label>
-                <input type="text" class="form-control form-control-lg" name="phone" id="Telefono" placeholder="Teléfono" aria-label="Teléfono" required data-msg="Por favor, ingrese su teléfono">
-            </div>
-            <!-- End Form -->
-
-            <!-- Form -->
-            <div class="mb-3">
-                <label class="form-label visually-hidden" for="hireUsFormDetails">Detalles</label>
-                <textarea class="form-control form-control-lg" name="message" id="message" placeholder="¿Cómo lo podemos ayudar?" aria-label="¿Cómo lo podemos ayudar?" rows="4"></textarea>
-            </div>
-            <!-- End Form -->
-
-            <div class="d-grid mb-2">
-                <button type="submit" class="btn btn-primary btn-lg">Solicitar contacto</button>
-            </div>
-
-            <div class="text-center">
-                <span class="form-text">Le escribiremos en menos de 15 minutos</span>
-            </div>
-            </form>
-            <!-- End Form -->
+          </div>
+          <!-- End Card -->
         </div>
-        </div>
-        <!-- End Card -->
+      </div>
+  
+      <div class="text-center">
+        <!-- Logo -->
+        <a class="d-inline-flex align-items-center mb-2" href="/" aria-label="Front">
+          <img class="brand" src="../assets/svg/logos/legalbox_white.svg" alt="Logo">
+        </a>
+        <!-- End Logo -->
+  
+        <p class="text-white-70 small">© Legalbox 2022. Todos los derechos reservados.</p>
+      </div>
     </div>
-    </div>
-
-    <div class="text-center">
-    <!-- Logo -->
-    <a class="d-inline-flex align-items-center mb-2" href="/" aria-label="Front">
-        <img class="brand" src="../assets/svg/logos/legalbox_white.svg" alt="Logo">
-    </a>
-    <!-- End Logo -->
-
-    <p class="text-white-70 small">© Legalbox 2022. Todos los derechos reservados.</p>
-    </div>
-</div>
-
-</footer>
+  
+  </footer>
 
 <a href="https://wa.me/message/GINUSYV4XZVRC1" class="whatsapp" target="_blank"> <i class="fa fa-whatsapp whatsapp-icon"></i></a>
-
-<script src="../assets/js/vendor.min.js">
-</script>  
 
 </body>
 </html>
