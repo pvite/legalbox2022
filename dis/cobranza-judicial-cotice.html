@@ -101,7 +101,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                       "backSpeed": 30,
                       "backDelay": 2500
                     }'></span>
-            </span>facturas
+            </span>
           </h1>
           <p class="lead">La cobranza judicial le permite obligar a pagar a clientes morosos y evitar pérdidas financieras</p>
         </div>
@@ -475,21 +475,30 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <i class="fa fa-whatsapp my-float"></i>
 </a>
 
-<script src="./assets/js/vendor.min.js"></script>
+<script src="../assets/js/theme.min.js"></script>
 
-<!-- JS Implementing Plugins -->
-<script src="../node_modules/typed.js/lib/typed.min.js"></script>
+<script src="../assets/js/vendor.min.js"></script>
 
-<!-- JS Front -->
-<script src="../assets/js/hs.typed.js"></script>
-
-<!-- JS Plugins Init. -->
 <script>
-  (function() {
-    // INITIALIZATION OF TEXT ANIMATION (TYPING)
-    // =======================================================
-    HSCore.components.HSTyped.init('.js-typedjs')
-  })()
+    (function() {
+      // INITIALIZATION OF GO TO
+      // =======================================================
+      new HSGoTo('.js-go-to')
+
+      
+      // INITIALIZATION OF MEGA MENU
+      // =======================================================
+      new HSMegaMenu('.js-mega-menu', {
+          desktop: {
+            position: 'left'
+          }
+        })
+
+
+      // INITIALIZATION OF TEXT ANIMATION (TYPING)
+      // =======================================================
+      HSCore.components.HSTyped.init('.js-typedjs')
+    })()
 </script>
 
 </body>
