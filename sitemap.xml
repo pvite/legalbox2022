@@ -4,87 +4,86 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
 
 <url>
   <loc>https://legalbox.cl/</loc>
-  <lastmod>2022-01-17T19:22:41+00:00</lastmod>
+  <lastmod>2022-05-09T19:54:58+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://legalbox.cl/servicios/cobranza-judicial</loc>
-  <lastmod>2022-01-17T19:22:41+00:00</lastmod>
+  <loc>https://legalbox.cl/blog/</loc>
+  <lastmod>2022-05-09T19:54:58+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://legalbox.cl/servicios/cobranza-prejudicial</loc>
-  <lastmod>2022-01-17T19:22:41+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://legalbox.cl/servicios/juicio-civil-cobranza</loc>
-  <lastmod>2022-01-17T19:22:41+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://legalbox.cl/servicios/certificado-incobrabilidad</loc>
-  <lastmod>2022-01-17T19:22:41+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://legalbox.cl/servicios/recupera-iva</loc>
-  <lastmod>2022-01-17T19:22:41+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://legalbox.cl/recursos/</loc>
-  <lastmod>2022-01-17T19:22:41+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://legalbox.cl/recursos/preguntas-frecuentes</loc>
-  <lastmod>2022-01-17T19:22:41+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://legalbox.cl/contacto</loc>
-  <lastmod>2022-01-17T19:22:41+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://legalbox.cl/recursos/index</loc>
-  <lastmod>2022-01-17T19:22:41+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://legalbox.cl/recursos/que-hacer-con-facturas-impagas</loc>
-  <lastmod>2022-01-17T19:22:41+00:00</lastmod>
+  <loc>https://legalbox.cl/blog/que-es-la-cobranza-judicial</loc>
+  <lastmod>2022-05-09T19:54:58+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://legalbox.cl/recursos/riesgo-de-facturar-al-contado</loc>
-  <lastmod>2022-01-17T19:22:41+00:00</lastmod>
+  <loc>https://legalbox.cl/blog/como-cobrar-facturas-impagas</loc>
+  <lastmod>2022-05-09T19:54:58+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://legalbox.cl/recursos/cuanto-demora-la-cobranza-judicial</loc>
-  <lastmod>2022-01-17T19:22:41+00:00</lastmod>
+  <loc>https://legalbox.cl/blog/que-es-un-embargo</loc>
+  <lastmod>2022-05-09T19:54:58+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://legalbox.cl/recursos/obtener-registro-de-aceptacion-de-una-factura</loc>
-  <lastmod>2022-01-17T19:22:41+00:00</lastmod>
+  <loc>https://legalbox.cl/blog/requisitos-cobranza-judicial</loc>
+  <lastmod>2022-05-09T19:54:58+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://legalbox.cl/recursos/pagare-todo-lo-que-tienes-que-saber</loc>
-  <lastmod>2022-01-17T19:22:41+00:00</lastmod>
+  <loc>https://legalbox.cl/blog/etapas-de-cobranza</loc>
+  <lastmod>2022-05-09T19:54:58+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://legalbox.cl/recursos/que-es-un-embargo</loc>
-  <lastmod>2022-01-17T19:22:41+00:00</lastmod>
+  <loc>https://legalbox.cl/blog/cuentas-por-cobrar</loc>
+  <lastmod>2022-05-09T19:54:58+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://legalbox.cl/blog/riesgo-facturar-al-contado</loc>
+  <lastmod>2022-05-09T19:54:58+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://legalbox.cl/blog/atraso-pagos-empresas</loc>
+  <lastmod>2022-05-09T19:54:58+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://legalbox.cl/blog/certificado-incobrabilidad</loc>
+  <lastmod>2022-05-09T19:54:58+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://legalbox.cl/blog/cuanto-tiempo-demora-cobranza-judicial</loc>
+  <lastmod>2022-05-09T19:54:58+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://legalbox.cl/blog/pagare</loc>
+  <lastmod>2022-05-09T19:54:58+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://legalbox.cl/blog/que-hacer-facturas-impagas</loc>
+  <lastmod>2022-05-09T19:54:58+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://legalbox.cl/blog/morosidad-empresas-chile</loc>
+  <lastmod>2022-05-09T19:54:58+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://legalbox.cl/blog/obtener-registro-aceptacion-factura</loc>
+  <lastmod>2022-05-09T19:54:58+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 
