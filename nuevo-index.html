@@ -89,77 +89,339 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
-<header id="header" data-hs-header-options="{
+<header id="header" class="navbar navbar-expand-lg navbar-end navbar-absolute-top navbar-light navbar-show-hide" data-hs-header-options="{
   &quot;fixMoment&quot;: 1000,
   &quot;fixEffect&quot;: &quot;slide&quot;
-  }" hsheader="true" class="navbar navbar-expand-lg navbar-end navbar-absolute-top navbar-show-hide">
+}" hsheader="true">
+<!-- Topbar -->
+<div class="container navbar-topbar">
+<nav class="js-mega-menu navbar-nav-wrap hs-menu-initialized hs-menu-horizontal">
+<!-- Toggler -->
+<button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#topbarNavDropdown" aria-controls="topbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+<span class="d-flex justify-content-between align-items-center small">
+  <span class="navbar-toggler-text">Topbar</span>
 
-  <div class="container">
-      <nav class="js-mega-menu navbar-nav-wrap">
+  <span class="navbar-toggler-default">
+    <i class="bi-chevron-down ms-2"></i>
+  </span>
+  <span class="navbar-toggler-toggled">
+    <i class="bi-chevron-up ms-2"></i>
+  </span>
+</span>
+</button>
+<!-- End Toggler -->
 
-      <a class="navbar-brand" href="../" aria-label="Legalbox">
-      <img class="navbar-brand-logo" src="./assets/svg/logos/legalbox_logo.svg" alt="Logo-Legalbox">
-      </a>
+<div id="topbarNavDropdown" class="navbar-nav-wrap-collapse collapse navbar-collapse navbar-topbar-collapse">
+<div class="navbar-toggler-wrapper">
+  <div class="navbar-topbar-toggler d-flex justify-content-between align-items-center">
+    <span class="navbar-toggler-text small">Contacto</span>
 
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-default">
-      <i class="bi-list"></i>
-      </span>
-      <span class="navbar-toggler-toggled">
+    <!-- Toggler -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#topbarNavDropdown" aria-controls="topbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <i class="bi-x"></i>
-      </span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
-      <ul class="navbar-nav">
-
-      <li class="nav-item">
-          <a class="nav-link" href="./blog">Blog</a>
-      </li>
-
-      <li class="nav-item nav-link">
-          <a class="nav-link" href="https://app.legalbox.cl/login" target="blank">Ingresar
-          <i class="bi-box-arrow-up-right small ms-1"></i>
-          </a>
-      </li>
-
-      <li class="nav-item">
-          <a class="btn btn-primary btn-transition" href="./planes">Iniciar cobranza</a>
-      </li>
-      </ul>
-      </div>
-
-      </nav>
+    </button>
+    <!-- End Toggler -->
   </div>
+</div>
+
+<ul class="navbar-nav">
+  <!-- Demos -->
+  <li class="hs-has-mega-menu nav-item">
+    <a id="demosMegaMenu" class="hs-mega-menu-invoker nav-link dropdown-toggle active" aria-current="page" href="#" role="button">Contacto</a>
+
+    <div class="hs-mega-menu hs-position-right dropdown-menu hs-mega-menu-desktop-lg animated" aria-labelledby="docsMegaMenu" style="min-width: 20rem; max-width: 20rem; animation-duration: 300ms; display: none;">
+      <!-- Link -->
+      <a class="navbar-dropdown-menu-media-link" href="./documentation/index.html">
+        <div class="d-flex">
+          <div class="flex-shrink-0">
+            <span class="svg-icon svg-icon-sm text-primary">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path opacity="0.3" fill-rule="evenodd" clip-rule="evenodd" d="M4.85714 1H11.7364C12.0911 1 12.4343 1.12568 12.7051 1.35474L17.4687 5.38394C17.8057 5.66895 18 6.08788 18 6.5292V19.0833C18 20.8739 17.9796 21 16.1429 21H4.85714C3.02045 21 3 20.8739 3 19.0833V2.91667C3 1.12612 3.02045 1 4.85714 1ZM7 13C7 12.4477 7.44772 12 8 12H15C15.5523 12 16 12.4477 16 13C16 13.5523 15.5523 14 15 14H8C7.44772 14 7 13.5523 7 13ZM8 16C7.44772 16 7 16.4477 7 17C7 17.5523 7.44772 18 8 18H11C11.5523 18 12 17.5523 12 17C12 16.4477 11.5523 16 11 16H8Z" fill="#035A4B"></path>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M6.85714 3H14.7364C15.0911 3 15.4343 3.12568 15.7051 3.35474L20.4687 7.38394C20.8057 7.66895 21 8.08788 21 8.5292V21.0833C21 22.8739 20.9796 23 19.1429 23H6.85714C5.02045 23 5 22.8739 5 21.0833V4.91667C5 3.12612 5.02045 3 6.85714 3ZM7 13C7 12.4477 7.44772 12 8 12H15C15.5523 12 16 12.4477 16 13C16 13.5523 15.5523 14 15 14H8C7.44772 14 7 13.5523 7 13ZM8 16C7.44772 16 7 16.4477 7 17C7 17.5523 7.44772 18 8 18H11C11.5523 18 12 17.5523 12 17C12 16.4477 11.5523 16 11 16H8Z" fill="#035A4B"></path>
+              </svg>
+
+            </span>
+          </div>
+
+          <div class="flex-grow-1 ms-3">
+            <span class="navbar-dropdown-menu-media-title">Ingresar</span>
+            <p class="navbar-dropdown-menu-media-desc">Acceso para clientes</p>
+          </div>
+        </div>
+      </a>
+      <!-- End Link -->
+
+      <div class="dropdown-divider"></div>
+
+      <!-- Link -->
+      <a class="navbar-dropdown-menu-media-link" href="./snippets/index.html">
+        <div class="d-flex">
+          <div class="flex-shrink-0">
+            <span class="svg-icon svg-icon-sm text-primary">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path opacity="0.3" d="M21 2H13C12.4 2 12 2.4 12 3V13C12 13.6 12.4 14 13 14H21C21.6 14 22 13.6 22 13V3C22 2.4 21.6 2 21 2ZM15.7 8L14 10.1V5.80005L15.7 8ZM15.1 4H18.9L17 6.40002L15.1 4ZM17 9.59998L18.9 12H15.1L17 9.59998ZM18.3 8L20 5.90002V10.2L18.3 8ZM9 2H3C2.4 2 2 2.4 2 3V21C2 21.6 2.4 22 3 22H9C9.6 22 10 21.6 10 21V3C10 2.4 9.6 2 9 2ZM4.89999 12L4 14.8V9.09998L4.89999 12ZM4.39999 4H7.60001L6 8.80005L4.39999 4ZM6 15.2L7.60001 20H4.39999L6 15.2ZM7.10001 12L8 9.19995V14.9L7.10001 12Z" fill="#035A4B"></path>
+                <path d="M21 18H13C12.4 18 12 17.6 12 17C12 16.4 12.4 16 13 16H21C21.6 16 22 16.4 22 17C22 17.6 21.6 18 21 18ZM19 21C19 20.4 18.6 20 18 20H13C12.4 20 12 20.4 12 21C12 21.6 12.4 22 13 22H18C18.6 22 19 21.6 19 21Z" fill="#035A4B"></path>
+              </svg>
+
+            </span>
+          </div>
+
+          <div class="flex-grow-1 ms-3">
+            <span class="navbar-dropdown-menu-media-title">Crear cuenta</span>
+            <p class="navbar-dropdown-menu-media-desc">Solicita una cuenta en Legalbox</p>
+          </div>
+        </div>
+      </a>
+      <!-- End Link -->
+    </div>
+
+  </li>
+  <!-- End Demos -->
+
+  <!-- Docs -->
+  <li class="hs-has-mega-menu nav-item" data-hs-mega-menu-item-options="{
+        &quot;desktop&quot;: {
+          &quot;maxWidth&quot;: &quot;20rem&quot;
+        }
+      }">
+    <a id="docsMegaMenu" class="hs-mega-menu-invoker nav-link dropdown-toggle" href="#" role="button">Clientes</a>
+
+    <!-- Mega Menu -->
+    <div class="hs-mega-menu hs-position-right dropdown-menu hs-mega-menu-desktop-lg animated" aria-labelledby="docsMegaMenu" style="min-width: 20rem; max-width: 20rem; animation-duration: 300ms; display: none;">
+      <!-- Link -->
+      <a class="navbar-dropdown-menu-media-link" href="./documentation/index.html">
+        <div class="d-flex">
+          <div class="flex-shrink-0">
+            <span class="svg-icon svg-icon-sm text-primary">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path opacity="0.3" fill-rule="evenodd" clip-rule="evenodd" d="M4.85714 1H11.7364C12.0911 1 12.4343 1.12568 12.7051 1.35474L17.4687 5.38394C17.8057 5.66895 18 6.08788 18 6.5292V19.0833C18 20.8739 17.9796 21 16.1429 21H4.85714C3.02045 21 3 20.8739 3 19.0833V2.91667C3 1.12612 3.02045 1 4.85714 1ZM7 13C7 12.4477 7.44772 12 8 12H15C15.5523 12 16 12.4477 16 13C16 13.5523 15.5523 14 15 14H8C7.44772 14 7 13.5523 7 13ZM8 16C7.44772 16 7 16.4477 7 17C7 17.5523 7.44772 18 8 18H11C11.5523 18 12 17.5523 12 17C12 16.4477 11.5523 16 11 16H8Z" fill="#035A4B"></path>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M6.85714 3H14.7364C15.0911 3 15.4343 3.12568 15.7051 3.35474L20.4687 7.38394C20.8057 7.66895 21 8.08788 21 8.5292V21.0833C21 22.8739 20.9796 23 19.1429 23H6.85714C5.02045 23 5 22.8739 5 21.0833V4.91667C5 3.12612 5.02045 3 6.85714 3ZM7 13C7 12.4477 7.44772 12 8 12H15C15.5523 12 16 12.4477 16 13C16 13.5523 15.5523 14 15 14H8C7.44772 14 7 13.5523 7 13ZM8 16C7.44772 16 7 16.4477 7 17C7 17.5523 7.44772 18 8 18H11C11.5523 18 12 17.5523 12 17C12 16.4477 11.5523 16 11 16H8Z" fill="#035A4B"></path>
+              </svg>
+
+            </span>
+          </div>
+
+          <div class="flex-grow-1 ms-3">
+            <span class="navbar-dropdown-menu-media-title">Ingresar</span>
+            <p class="navbar-dropdown-menu-media-desc">Acceso para clientes</p>
+          </div>
+        </div>
+      </a>
+      <!-- End Link -->
+
+      <div class="dropdown-divider"></div>
+
+      <!-- Link -->
+      <a class="navbar-dropdown-menu-media-link" href="./snippets/index.html">
+        <div class="d-flex">
+          <div class="flex-shrink-0">
+            <span class="svg-icon svg-icon-sm text-primary">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path opacity="0.3" d="M21 2H13C12.4 2 12 2.4 12 3V13C12 13.6 12.4 14 13 14H21C21.6 14 22 13.6 22 13V3C22 2.4 21.6 2 21 2ZM15.7 8L14 10.1V5.80005L15.7 8ZM15.1 4H18.9L17 6.40002L15.1 4ZM17 9.59998L18.9 12H15.1L17 9.59998ZM18.3 8L20 5.90002V10.2L18.3 8ZM9 2H3C2.4 2 2 2.4 2 3V21C2 21.6 2.4 22 3 22H9C9.6 22 10 21.6 10 21V3C10 2.4 9.6 2 9 2ZM4.89999 12L4 14.8V9.09998L4.89999 12ZM4.39999 4H7.60001L6 8.80005L4.39999 4ZM6 15.2L7.60001 20H4.39999L6 15.2ZM7.10001 12L8 9.19995V14.9L7.10001 12Z" fill="#035A4B"></path>
+                <path d="M21 18H13C12.4 18 12 17.6 12 17C12 16.4 12.4 16 13 16H21C21.6 16 22 16.4 22 17C22 17.6 21.6 18 21 18ZM19 21C19 20.4 18.6 20 18 20H13C12.4 20 12 20.4 12 21C12 21.6 12.4 22 13 22H18C18.6 22 19 21.6 19 21Z" fill="#035A4B"></path>
+              </svg>
+
+            </span>
+          </div>
+
+          <div class="flex-grow-1 ms-3">
+            <span class="navbar-dropdown-menu-media-title">Crear cuenta</span>
+            <p class="navbar-dropdown-menu-media-desc">Solicita una cuenta en Legalbox</p>
+          </div>
+        </div>
+      </a>
+      <!-- End Link -->
+    </div>
+    <!-- End Mega Menu -->
+  </li>
+  <!-- End Docs -->
+</ul>
+</div>
+</nav>
+</div>
+<!-- End Topbar -->
+
+<div class="container">
+<nav class="js-mega-menu navbar-nav-wrap hs-menu-initialized hs-menu-horizontal">
+<!-- Default Logo -->
+<a class="navbar-brand" href="./index.html" aria-label="Front">
+<img class="navbar-brand-logo" src="./assets/svg/logos/legalbox_logo.svg" alt="Logo">
+</a>
+<!-- End Default Logo -->
+
+<!-- Toggler -->
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-default">
+  <i class="bi-list"></i>
+</span>
+<span class="navbar-toggler-toggled">
+  <i class="bi-x"></i>
+</span>
+</button>
+<!-- End Toggler -->
+
+<!-- Collapse -->
+<div class="collapse navbar-collapse" id="navbarNavDropdown">
+<div class="navbar-absolute-top-scroller">
+  <ul class="navbar-nav">
+
+    <!-- Company -->
+    <li class="hs-has-sub-menu nav-item">
+      <a id="companyMegaMenu" class="hs-mega-menu-invoker nav-link dropdown-toggle " href="#" role="button" aria-expanded="false">Servicios</a>
+
+      <!-- Mega Menu -->
+      <div class="hs-sub-menu dropdown-menu hs-sub-menu-desktop-lg animated" aria-labelledby="companyMegaMenu" style="min-width: 14rem; animation-duration: 300ms; display: none;">
+        <a class="dropdown-item " href="./page-about.html">Cobranza prejudicial</a>
+        <a class="dropdown-item " href="./page-services.html">Cobranza judicial</a>
+        <a class="dropdown-item " href="./page-customer-stories.html">Analítica de cobranza</a>
+      </div>
+      <!-- End Mega Menu -->
+    </li>
+    <!-- End Company -->
+
+    <!-- Account -->
+    <li class="hs-has-sub-menu nav-item">
+      <a id="accountMegaMenu" class="hs-mega-menu-invoker nav-link dropdown-toggle " href="#" role="button" aria-expanded="false">Account</a>
+
+      <!-- Mega Menu -->
+      <div class="hs-sub-menu dropdown-menu hs-sub-menu-desktop-lg animated fadeOut" aria-labelledby="accountMegaMenu" style="min-width: 14rem; animation-duration: 300ms; display: none;">
+        <!-- Authentication -->
+        <div class="hs-has-sub-menu nav-item">
+          <a id="authenticationMegaMenu" class="hs-mega-menu-invoker dropdown-item dropdown-toggle " href="#" role="button" aria-expanded="false">Authentication</a>
+
+          <div class="hs-sub-menu dropdown-menu hs-sub-menu-desktop-lg animated" aria-labelledby="authenticationMegaMenu" style="min-width: 14rem; animation-duration: 300ms; display: none;">
+            <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#signupModal">Signup Modal</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item " href="./page-login.html">Login</a>
+            <a class="dropdown-item " href="./page-signup.html">Signup</a>
+            <a class="dropdown-item " href="./page-reset-password.html">Reset Password</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item " href="./page-login-simple.html">Login Simple</a>
+            <a class="dropdown-item " href="./page-signup-simple.html">Signup Simple</a>
+            <a class="dropdown-item " href="./page-reset-password-simple.html">Reset Password Simple</a>
+          </div>
+        </div>
+        <!-- End Authentication -->
+
+        <a class="dropdown-item " href="./account-overview.html">Personal Info</a>
+        <a class="dropdown-item " href="./account-security.html">Security</a>
+        <a class="dropdown-item " href="./account-notifications.html">Notifications</a>
+        <a class="dropdown-item " href="./account-preferences.html">Preferences</a>
+        <a class="dropdown-item " href="./account-orders.html">Orders</a>
+        <a class="dropdown-item " href="./account-wishlist.html">Wishlist</a>
+        <a class="dropdown-item " href="./account-payments.html">Payments</a>
+        <a class="dropdown-item " href="./account-address.html">Address</a>
+        <a class="dropdown-item " href="./account-teams.html">Teams</a>
+      </div>
+      <!-- End Mega Menu -->
+    </li>
+    <!-- End Account -->
+
+    <!-- Pages -->
+    <li class="hs-has-sub-menu nav-item">
+      <a id="pagesMegaMenu" class="hs-mega-menu-invoker nav-link dropdown-toggle " href="#" role="button" aria-expanded="false">Pages</a>
+
+      <!-- Mega Menu -->
+      <div class="hs-sub-menu dropdown-menu hs-sub-menu-desktop-lg animated fadeOut" aria-labelledby="pagesMegaMenu" style="min-width: 14rem; animation-duration: 300ms; display: none;">
+        <a class="dropdown-item " href="./page-faq.html">FAQ</a>
+        <a class="dropdown-item " href="./page-terms.html">Terms &amp; Conditions</a>
+        <a class="dropdown-item " href="./page-privacy.html">Privacy &amp; Policy</a>
+        <a class="dropdown-item " href="./page-coming-soon.html">Coming Soon</a>
+        <a class="dropdown-item " href="./page-coming-soon-simple.html">Coming Soon: Simple</a>
+        <a class="dropdown-item " href="./page-maintenance-mode.html">Maintenance Mode</a>
+        <a class="dropdown-item " href="./page-status.html">Status</a>
+        <a class="dropdown-item " href="./page-invoice.html">Invoice</a>
+        <a class="dropdown-item " href="./page-error-404.html">Error 404</a>
+      </div>
+      <!-- End Mega Menu -->
+    </li>
+    <!-- End Pages -->
+
+    <!-- Portfolio -->
+    <li class="hs-has-sub-menu nav-item">
+      <a id="portfolioMegaMenu" class="hs-mega-menu-invoker nav-link dropdown-toggle " href="#" role="button" aria-expanded="false">Recursos</a>
+
+      <!-- Mega Menu -->
+      <div class="hs-sub-menu dropdown-menu hs-sub-menu-desktop-lg animated" aria-labelledby="portfolioMegaMenu" style="min-width: 14rem; animation-duration: 300ms; display: none;">
+        <a class="dropdown-item " href="./portfolio-grid.html">Blog</a>
+        <a class="dropdown-item " href="./portfolio-product-article.html">Preguntas frecuentes</a>
+      </div>
+      <!-- End Mega Menu -->
+    </li>
+    <!-- End Portfolio -->
+
+    <!-- Button -->
+    <li class="nav-item">
+      <a class="btn btn-primary btn-transition" href="https://themes.getbootstrap.com/product/front-multipurpose-responsive-template/" target="_blank">Buy now</a>
+    </li>
+    <!-- End Button -->
+  </ul>
+</div>
+</div>
+<!-- End Collapse -->
+</nav>
+</div>
 </header>
 
 <main>
 
-    <div class="container content-space-t-4 content-space-t-lg-5 content-space-b-2 content-space-b-lg-3">
+  <div class="container content-space-t-4 content-space-t-lg-5 content-space-b-2 content-space-b-lg-3">
     <div class="row justify-content-lg-between align-items-lg-center mb-10">
-        <div class="col-md-6 col-lg-5">
+      <div class="col-md-6 col-lg-5">
+        <!-- Heading -->
         <div class="mb-5">
-            <h1 class="display-5">Partner legal para la cobranza de tu empresa</h1>
-            <p>Centraliza la cobranza de tu empresa y reduce la morosidad. Prueba Legalbox, legaltech especialista en cobranza.</p>
+          <h1>Controla la cobranza y reduce la morosidad</h1>
+          <p>Centraliza la cobranza de tu empresa y reduce la morosidad. Prueba Legalbox, legaltech especialista en cobranza.</p>
         </div>
+        <!-- End Title & Description -->
 
         <div class="d-grid d-sm-flex gap-3">
-            <a class="btn btn-primary btn-transition" href="#">Ver servicios</a>
-            <a class="btn btn-link" href="#">Contactar <i class="bi-chevron-right small ms-1"></i></a>
+          <a class="btn btn-primary btn-transition" href="#">Ver servicios</a>
+          <a class="btn btn-link" href="#">Contacto <i class="bi-chevron-right small ms-1"></i></a>
         </div>
 
         <p class="form-text small">Start free trial. * No credit card required.</p>
-        </div>
+      </div>
+      <!-- End Col -->
 
-        <div class="col-sm-7 col-md-6 d-none d-md-block">
-        <img class="img-fluid" src="./hero-minimal.svg" alt="Image Description">
-        </div>
-        
+      <div class="col-sm-7 col-md-6 d-none d-md-block">
+        <img class="img-fluid" src="./Group 59.svg" alt="Image Description">
+      </div>
+      <!-- End Col -->
     </div>
+    <!-- End Row -->
 
+    <!-- Swiper Slider -->
+    <div class="js-swiper-hero-clients swiper text-center swiper-initialized swiper-horizontal swiper-pointer-events swiper-backface-hidden">
+      <div class="swiper-wrapper" id="swiper-wrapper-c5942f6a4f836f83" aria-live="polite" style="transform: translate3d(0px, 0px, 0px);">
+        <div class="swiper-slide swiper-slide-active" role="group" aria-label="1 / 5" style="width: 211.2px; margin-right: 15px;">
+          <img class="avatar avatar-lg avatar-4x3" src="./profi.svg" alt="Logo">
+        </div>
+        <!-- End Slide -->
 
+        <div class="swiper-slide swiper-slide-next" role="group" aria-label="2 / 5" style="width: 211.2px; margin-right: 15px;">
+          <img class="avatar avatar-lg avatar-4x3" src="./kredito-logo.svg" alt="Logo">
+        </div>
+        <!-- End Slide -->
 
-    </div>
+        <div class="swiper-slide" role="group" aria-label="3 / 5" style="width: 211.2px; margin-right: 15px;">
+          <img class="avatar avatar-lg avatar-4x3" src="./libercoop.svg" alt="Logo">
+        </div>
+        <!-- End Slide -->
+
+        <div class="swiper-slide" role="group" aria-label="4 / 5" style="width: 211.2px; margin-right: 15px;">
+          <img class="avatar avatar-lg avatar-4x3" src="./loga-logo.svg" alt="Logo">
+        </div>
+        <!-- End Slide -->
+
+        <div class="swiper-slide" role="group" aria-label="5 / 5" style="width: 211.2px; margin-right: 15px;">
+          <img class="avatar avatar-lg avatar-4x3" src="./xepelin-logo.svg" alt="Logo">
+        </div>
+        <!-- End Slide -->
+      </div>
+    <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+    <!-- End Swiper Slider -->
+  </div>
 
     <!-- Card Grid -->
 <div class="border-top">
@@ -647,17 +909,74 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <!-- JS Implementing Plugins -->
   <script src="./assets/js/vendor.min.js"></script>
 
-  <!-- JS Plugins Init. -->
   <script>
     (function() {
       // INITIALIZATION OF HEADER
       // =======================================================
       new HSHeader('#header').init()
 
+
+      // INITIALIZATION OF MEGA MENU
+      // =======================================================
+      new HSMegaMenu('.js-mega-menu', {
+          desktop: {
+            position: 'left'
+          }
+        })
+
+
+      // INITIALIZATION OF SHOW ANIMATIONS
+      // =======================================================
+      new HSShowAnimation('.js-animation-link')
+
+
+      // INITIALIZATION OF BOOTSTRAP VALIDATION
+      // =======================================================
+      HSBsValidation.init('.js-validate', {
+        onSubmit: data => {
+          data.event.preventDefault()
+          alert('Submited')
+        }
+      })
+
+
       // INITIALIZATION OF GO TO
       // =======================================================
       new HSGoTo('.js-go-to')
 
+
+      // INITIALIZATION OF AOS
+      // =======================================================
+      AOS.init({
+        duration: 650,
+        once: true
+      });
+
+
+      // INITIALIZATION OF SWIPER
+      // =======================================================
+      var swiper = new Swiper('.js-swiper-hero-clients',{
+        slidesPerView: 2,
+        breakpoints: {
+          380: {
+            slidesPerView: 3,
+            spaceBetween: 15,
+          },
+          768: {
+            slidesPerView: 4,
+            spaceBetween: 15,
+          },
+          1024: {
+            slidesPerView: 5,
+            spaceBetween: 15,
+          },
+        },
+      });
+
+
+      // INITIALIZATION OF NAV SCROLLER
+      // =======================================================
+      new HsNavScroller('.js-nav-scroller')
     })()
   </script>
 
