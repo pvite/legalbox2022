@@ -45,21 +45,59 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
-<header id="header" class="navbar navbar-expand-lg navbar-end navbar-light bg-white">
+<header id="header" class="navbar navbar-expand-lg navbar-end navbar-sticky-top navbar-light bg-white border-bottom">
   <div class="container">
     <nav class="js-mega-menu navbar-nav-wrap">
       <!-- Default Logo -->
-      <a class="navbar-brand" href="../" aria-label="Front">
-        <img class="navbar-brand-logo" src="./assets/svg/logos/legalbox_logo.svg" alt="Logo">
-      </a>
+      <a class="navbar-brand" href="../" aria-label="Legalbox">
+        <img class="navbar-brand-logo" src="./assets/svg/logos/legalbox_logo.svg" alt="Logo-Legalbox">
+        </a>
       <!-- End Default Logo -->
+
+      <!-- Toggler -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-default">
+          <i class="bi-list"></i>
+        </span>
+        <span class="navbar-toggler-toggled">
+          <i class="bi-x"></i>
+        </span>
+      </button>
+      <!-- End Toggler -->
+
+      <!-- Collapse -->
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+
+          <li class="nav-item">
+            <a class="nav-link" href="../demo-app-marketplace/app-overview.html">Cobranza judicial</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="./blog">Blog</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="https://app.legalbox.cl/login">Ingresar
+          <i class="bi-box-arrow-up-right small ms-1"></i>
+          </a>
+      </li>
+
+          <!-- Button -->
+          <li class="nav-item">
+            <a class="btn btn-sm btn-dark btn-transition" href="">Solicitar contacto <i class="bi-chevron-right small ms-1"></i></a>
+          </li>
+          <!-- End Button -->
+        </ul>
+      </div>
+      <!-- End Collapse -->
     </nav>
   </div>
 </header>
 
 <main>
 
-  <div class="bg-light overflow-hidden">
+  <div class="bg-light overflow-hidden content-space-t-2 content-space-b-2 content-space-b-lg-3">
     <div class="container content-space-1">
     
       <div class="d-grid gap-2 w-lg-50 mx-lg-auto">
@@ -67,8 +105,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="card card-bordered shadow-none text-center" data-aos="fade-up" data-aos-delay="100">
           <div class="card-body">
             <img class="avatar-xxl" src="./spot_product_112_auth-112_2x.webp" alt="">
-            <h3 class="card-title">Completa el formulario para comenzar</h3>
-            <p class="card-text mb-5">Te contactaremos lo antes posible.</p>
+            <h3 class="card-title">Contáctanos para más información</h3>
+            <p class="card-text mb-5">Completa el formulario</p>
 
             <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/embed/v2.js"></script>
             <script>
