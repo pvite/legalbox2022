@@ -8,83 +8,98 @@
 
 <url>
   <loc>https://legalbox.cl/</loc>
-  <lastmod>2022-05-09T19:54:58+00:00</lastmod>
+  <lastmod>2023-07-17T21:40:16+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
+  <loc>https://legalbox.cl/cobranza-judicial</loc>
+  <lastmod>2023-07-17T21:40:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
   <loc>https://legalbox.cl/blog/</loc>
-  <lastmod>2022-05-09T19:54:58+00:00</lastmod>
+  <lastmod>2023-07-17T21:40:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://legalbox.cl/blog/cuentas-por-cobrar</loc>
+  <lastmod>2023-07-17T21:40:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://legalbox.cl/blog/pagare</loc>
+  <lastmod>2023-07-17T21:40:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://legalbox.cl/blog/como-cobrar-facturas-impagas</loc>
+  <lastmod>2023-07-17T21:40:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://legalbox.cl/blog/obtener-registro-aceptacion-factura</loc>
+  <lastmod>2023-07-17T21:40:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://legalbox.cl/blog/certificado-incobrabilidad</loc>
+  <lastmod>2023-07-17T21:40:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://legalbox.cl/comenzar</loc>
+  <lastmod>2023-07-17T21:40:16+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://legalbox.cl/blog/que-es-la-cobranza-judicial</loc>
-  <lastmod>2022-05-09T19:54:58+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://legalbox.cl/blog/como-cobrar-facturas-impagas</loc>
-  <lastmod>2022-05-09T19:54:58+00:00</lastmod>
+  <lastmod>2023-07-17T21:40:16+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://legalbox.cl/blog/que-es-un-embargo</loc>
-  <lastmod>2022-05-09T19:54:58+00:00</lastmod>
+  <lastmod>2023-07-17T21:40:16+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://legalbox.cl/blog/requisitos-cobranza-judicial</loc>
-  <lastmod>2022-05-09T19:54:58+00:00</lastmod>
+  <lastmod>2023-07-17T21:40:16+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://legalbox.cl/blog/etapas-de-cobranza</loc>
-  <lastmod>2022-05-09T19:54:58+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://legalbox.cl/blog/cuentas-por-cobrar</loc>
-  <lastmod>2022-05-09T19:54:58+00:00</lastmod>
+  <lastmod>2023-07-17T21:40:16+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://legalbox.cl/blog/riesgo-facturar-al-contado</loc>
-  <lastmod>2022-05-09T19:54:58+00:00</lastmod>
+  <lastmod>2023-07-17T21:40:16+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://legalbox.cl/blog/atraso-pagos-empresas</loc>
-  <lastmod>2022-05-09T19:54:58+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://legalbox.cl/blog/certificado-incobrabilidad</loc>
-  <lastmod>2022-05-09T19:54:58+00:00</lastmod>
+  <lastmod>2023-07-17T21:40:16+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://legalbox.cl/blog/cuanto-tiempo-demora-cobranza-judicial</loc>
-  <lastmod>2022-05-09T19:54:58+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://legalbox.cl/blog/pagare</loc>
-  <lastmod>2022-05-09T19:54:58+00:00</lastmod>
+  <lastmod>2023-07-17T21:40:16+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://legalbox.cl/blog/que-hacer-facturas-impagas</loc>
-  <lastmod>2022-05-09T19:54:58+00:00</lastmod>
+  <lastmod>2023-07-17T21:40:16+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://legalbox.cl/blog/morosidad-empresas-chile</loc>
-  <lastmod>2022-05-09T19:54:58+00:00</lastmod>
+  <lastmod>2023-07-17T21:40:16+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://legalbox.cl/blog/obtener-registro-aceptacion-factura</loc>
-  <lastmod>2022-05-09T19:54:58+00:00</lastmod>
-  <priority>0.64</priority>
+  <loc>https://legalbox.cl/planes</loc>
+  <lastmod>2023-07-17T21:40:16+00:00</lastmod>
+  <priority>0.50</priority>
 </url>
 
 
